@@ -42,7 +42,7 @@
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:425" version="1" comment="Test that the 'equals' operation is supported with two unequal boolean values that use different formats." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:883"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:790"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:999790"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:631" version="1" comment="Test that the 'not equal' operation is supported with two equal boolean values." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:194"/>
@@ -85,7 +85,7 @@
     <variable_state id="oval:org.mitre.oval.test:ste:1002" version="1" comment="This variable_state represents a boolean value that is equal to 'true' or '1'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="boolean">true</value>
     </variable_state>
-    <variable_state id="oval:org.mitre.oval.test:ste:790" version="1" comment="This variable_state represents a boolean value that is equal to 'true' or '1'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_state id="oval:org.mitre.oval.test:ste:999790" version="1" comment="This variable_state represents a boolean value that is equal to 'true' or '1'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="boolean">true</value>
     </variable_state>
     <variable_state id="oval:org.mitre.oval.test:ste:66" version="1" comment="This variable_state represents a boolean value that is not equal to 'true' or '1'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">

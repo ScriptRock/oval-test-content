@@ -87,7 +87,7 @@
     </local_variable>
     <local_variable id="oval:org.mitre.oval.test:var:614" version="1" comment="Applying the concat to three multi-value variables." datatype="string">
       <concat>
-        <variable_component var_ref="oval:org.mitre.oval.test:var:805"/>
+        <variable_component var_ref="oval:org.mitre.oval.test:var:9805"/>
         <variable_component var_ref="oval:org.mitre.oval.test:var:34"/>
         <variable_component var_ref="oval:org.mitre.oval.test:var:705"/>
       </concat>
@@ -100,7 +100,7 @@
       <value>123</value>
       <value>456</value>
     </constant_variable>
-    <constant_variable id="oval:org.mitre.oval.test:var:805" version="1" comment="The strings 'abc' and 'def'" datatype="string">
+    <constant_variable id="oval:org.mitre.oval.test:var:9805" version="1" comment="The strings 'abc' and 'def'" datatype="string">
       <value>abc</value>
       <value>def</value>
     </constant_variable>

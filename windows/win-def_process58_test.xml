@@ -17,7 +17,7 @@
 			</notes>
 			<criteria operator="AND">
 				<criterion comment="Test that the process58_object is supported with the name entity equal to some value and the pid entity greater than some value." test_ref="oval:org.mitre.oval.test:tst:1390"/>
-				<criterion comment="Test that the process58_object is supported with the name entity not equal to some value and the pid entity greater than or equal to some value." test_ref="oval:org.mitre.oval.test:tst:1664"/>
+				<criterion comment="Test that the process58_object is supported with the name entity not equal to some value and the pid entity greater than or equal to some value." test_ref="oval:org.mitre.oval.test:tst:91664"/>
 				<criterion comment="Test that the process58_object is supported with the name entity matching some regular expression and a pid greater than some value." test_ref="oval:org.mitre.oval.test:tst:1611"/>
 				<criterion comment="Test that the process58_object is supported with the pid entity less than some value." test_ref="oval:org.mitre.oval.test:tst:1108"/>
 				<criterion comment="Test that the process58_object is supported with the pid entity less than or equal to some value." test_ref="oval:org.mitre.oval.test:tst:1971"/>
@@ -27,22 +27,22 @@
 	<tests>
 		<process58_test id="oval:org.mitre.oval.test:tst:1390" comment="Test that the process58_object is supported with the name entity equal to some value and the pid entity greater than some value." version="1" check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
 			<object object_ref="oval:org.mitre.oval.test:obj:1429"/>
-			<state state_ref="oval:org.mitre.oval.test:ste:1193"/>
+			<state state_ref="oval:org.mitre.oval.test:ste:91193"/>
 		</process58_test>
-		<process58_test id="oval:org.mitre.oval.test:tst:1664" comment="Test that the process58_object is supported with the name entity not equal to some value and the pid entity greater than or equal to some value." version="1" check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-			<object object_ref="oval:org.mitre.oval.test:obj:859"/>
-			<state state_ref="oval:org.mitre.oval.test:ste:1108"/>
+		<process58_test id="oval:org.mitre.oval.test:tst:91664" comment="Test that the process58_object is supported with the name entity not equal to some value and the pid entity greater than or equal to some value." version="1" check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+			<object object_ref="oval:org.mitre.oval.test:obj:9859"/>
+			<state state_ref="oval:org.mitre.oval.test:ste:91108"/>
 		</process58_test>
 		<process58_test id="oval:org.mitre.oval.test:tst:1611" comment="Test that the process58_object is supported with the name entity matching some regular expression." version="1" check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-			<object object_ref="oval:org.mitre.oval.test:obj:872"/>
-			<state state_ref="oval:org.mitre.oval.test:ste:785"/>
+			<object object_ref="oval:org.mitre.oval.test:obj:9872"/>
+			<state state_ref="oval:org.mitre.oval.test:ste:9785"/>
 		</process58_test>
 		<process58_test id="oval:org.mitre.oval.test:tst:1108" comment="Test that the process58_object is supported with the pid entity less than some value." version="1" check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-			<object object_ref="oval:org.mitre.oval.test:obj:1047"/>
-			<state state_ref="oval:org.mitre.oval.test:ste:848"/>
+			<object object_ref="oval:org.mitre.oval.test:obj:91047"/>
+			<state state_ref="oval:org.mitre.oval.test:ste:9848"/>
 		</process58_test>
 		<process58_test id="oval:org.mitre.oval.test:tst:1971" comment="Test that the process58_object is supported with the pid entity less than or equal to some value." version="1" check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-			<object object_ref="oval:org.mitre.oval.test:obj:1280"/>
+			<object object_ref="oval:org.mitre.oval.test:obj:91280"/>
 			<state state_ref="oval:org.mitre.oval.test:ste:1771"/>
 		</process58_test>
 	</tests>
@@ -51,34 +51,34 @@
 			<command_line datatype="string" operation="equals">winlogon.exe</command_line>
 			<pid datatype="int" operation="greater than">0</pid>
 		</process58_object>
-		<process58_object id="oval:org.mitre.oval.test:obj:859" version="1" comment="Retrieve process58_items with names that are not equal to 'winlogon.exe' and a pid greater than or equal to '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+		<process58_object id="oval:org.mitre.oval.test:obj:9859" version="1" comment="Retrieve process58_items with names that are not equal to 'winlogon.exe' and a pid greater than or equal to '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
 			<command_line datatype="string" operation="not equal">winlogon.exe</command_line>
 			<pid datatype="int" operation="greater than or equal">0</pid>
 		</process58_object>
-		<process58_object id="oval:org.mitre.oval.test:obj:872" version="1" comment="Retrieve process58_items with names that match the regular expression '^winl[o,g]{2}on\.exe$' and a pid greater than '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+		<process58_object id="oval:org.mitre.oval.test:obj:9872" version="1" comment="Retrieve process58_items with names that match the regular expression '^winl[o,g]{2}on\.exe$' and a pid greater than '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
 			<command_line datatype="string" operation="pattern match">^winl[o,g]{2}on\.exe$</command_line>
 			<pid datatype="int" operation="greater than">0</pid>
 		</process58_object>
-		<process58_object id="oval:org.mitre.oval.test:obj:1047" version="1" comment="Retrieve process58_items with a pid less than 1000." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+		<process58_object id="oval:org.mitre.oval.test:obj:91047" version="1" comment="Retrieve process58_items with a pid less than 1000." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
 		  <command_line datatype="string" operation="pattern match"/>
 		  <pid datatype="int" operation="less than">1000</pid>
 		</process58_object>
-		<process58_object id="oval:org.mitre.oval.test:obj:1280" version="1" comment="Retrieve process58_items with pid less than or equal to 1000." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+		<process58_object id="oval:org.mitre.oval.test:obj:91280" version="1" comment="Retrieve process58_items with pid less than or equal to 1000." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
 		  <command_line datatype="string" operation="pattern match"/>
 		  <pid datatype="int" operation="less than or equal">1000</pid>
 		</process58_object>
 	</objects>
 	<states>
-		<process58_state id="oval:org.mitre.oval.test:ste:1193" version="1" comment="This state represents an process58_item that has a name equal to 'winlogon.exe'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+		<process58_state id="oval:org.mitre.oval.test:ste:91193" version="1" comment="This state represents an process58_item that has a name equal to 'winlogon.exe'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
 			<command_line operation="equals">winlogon.exe</command_line>
 		</process58_state>
-		<process58_state id="oval:org.mitre.oval.test:ste:1108" version="1" comment="This state represents process58_items that have a name not equal to 'winlogon.exe'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+		<process58_state id="oval:org.mitre.oval.test:ste:91108" version="1" comment="This state represents process58_items that have a name not equal to 'winlogon.exe'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
 			<command_line operation="not equal">winlogon.exe</command_line>
 		</process58_state>
-		<process58_state id="oval:org.mitre.oval.test:ste:785" version="1" comment="This state represents process58_items that have a name that matches the regular expression '^winl[o,g]{2}on\.exe$'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+		<process58_state id="oval:org.mitre.oval.test:ste:9785" version="1" comment="This state represents process58_items that have a name that matches the regular expression '^winl[o,g]{2}on\.exe$'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
 			<command_line operation="pattern match">^winl[o,g]{2}on\.exe$</command_line>
 		</process58_state>
-		<process58_state id="oval:org.mitre.oval.test:ste:848" version="1" comment="This state represents process58_items where the pid is less than '1000'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+		<process58_state id="oval:org.mitre.oval.test:ste:9848" version="1" comment="This state represents process58_items where the pid is less than '1000'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
 			<pid datatype="int" operation="less than">1000</pid>
 		</process58_state>
 		<process58_state id="oval:org.mitre.oval.test:ste:1771" version="1" comment="This state represents process58_items where the pid is less than or equal to '1000'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">

@@ -18,56 +18,56 @@
             <criteria operator="AND">
                 <criterion comment="Test that a regkeyeffectiverights_object with a hive, key, and trustee_name is supported." test_ref="oval:org.mitre.oval.test:tst:1336"/>
                 <criterion comment="Test that a regkeyeffectiverights_object with a hive, key, and trustee_name pattern match is supported." test_ref="oval:org.mitre.oval.test:tst:1643"/>
-                <criterion comment="Test that a regkeyeffectiverights_object with a hive, key pattern match, and trustee_name is supported." test_ref="oval:org.mitre.oval.test:tst:1871"/>
+                <criterion comment="Test that a regkeyeffectiverights_object with a hive, key pattern match, and trustee_name is supported." test_ref="oval:org.mitre.oval.test:tst:91871"/>
                 <criterion comment="Test that the max_depth behavior is supported for limited depth of recursion." test_ref="oval:org.mitre.oval.test:tst:1990"/>
                 <criterion comment="Test that the max_depth behavior is supported for unlimited depth of recursion." test_ref="oval:org.mitre.oval.test:tst:1856"/>
-                <criterion comment="Test that the recurse_direction behavior is supported in the 'up' direction." test_ref="oval:org.mitre.oval.test:tst:1225"/>
-                <criterion comment="Test that the include_group behavior is supported." test_ref="oval:org.mitre.oval.test:tst:1923"/>
-                <criterion comment="Test that the resolve_group behavior is supported." test_ref="oval:org.mitre.oval.test:tst:1370"/>
+                <criterion comment="Test that the recurse_direction behavior is supported in the 'up' direction." test_ref="oval:org.mitre.oval.test:tst:91225"/>
+                <criterion comment="Test that the include_group behavior is supported." test_ref="oval:org.mitre.oval.test:tst:91923"/>
+                <criterion comment="Test that the resolve_group behavior is supported." test_ref="oval:org.mitre.oval.test:tst:91370"/>
             </criteria>
         </definition>
     </definitions>
     <tests>
         <regkeyeffectiverights_test id="oval:org.mitre.oval.test:tst:1336" comment="Test that a regkeyeffectiverights_object with a hive, key, and trustee_name is supported." version="1" check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-            <object object_ref="oval:org.mitre.oval.test:obj:563"/>
-            <state state_ref="oval:org.mitre.oval.test:ste:793"/>
+            <object object_ref="oval:org.mitre.oval.test:obj:9563"/>
+            <state state_ref="oval:org.mitre.oval.test:ste:9793"/>
         </regkeyeffectiverights_test>
         <regkeyeffectiverights_test id="oval:org.mitre.oval.test:tst:1643" comment="Test that a regkeyeffectiverights_object with a hive, key, and trustee_name pattern match is supported." version="1" check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-            <object object_ref="oval:org.mitre.oval.test:obj:825"/>
+            <object object_ref="oval:org.mitre.oval.test:obj:9825"/>
             <state state_ref="oval:org.mitre.oval.test:ste:1382"/>
         </regkeyeffectiverights_test>
-        <regkeyeffectiverights_test id="oval:org.mitre.oval.test:tst:1871" comment="Test that a regkeyeffectiverights_object with a hive pattern match, key, and trustee_name is supported." version="1" check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_test id="oval:org.mitre.oval.test:tst:91871" comment="Test that a regkeyeffectiverights_object with a hive pattern match, key, and trustee_name is supported." version="1" check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <object object_ref="oval:org.mitre.oval.test:obj:1170"/>
             <state state_ref="oval:org.mitre.oval.test:ste:1690"/>
         </regkeyeffectiverights_test>
         <regkeyeffectiverights_test id="oval:org.mitre.oval.test:tst:1990" comment="Test that the max_depth behavior is supported for limited depth of recursion." version="1" check_existence="at_least_one_exists" check="only one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-            <object object_ref="oval:org.mitre.oval.test:obj:1231"/>
-            <state state_ref="oval:org.mitre.oval.test:ste:1251"/>
+            <object object_ref="oval:org.mitre.oval.test:obj:91231"/>
+            <state state_ref="oval:org.mitre.oval.test:ste:91251"/>
         </regkeyeffectiverights_test>
         <regkeyeffectiverights_test id="oval:org.mitre.oval.test:tst:1856" comment="Test that the max_depth behavior is supported for unlimited depth of recursion." version="1" check_existence="at_least_one_exists" check="only one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-            <object object_ref="oval:org.mitre.oval.test:obj:1273"/>
+            <object object_ref="oval:org.mitre.oval.test:obj:91273"/>
             <state state_ref="oval:org.mitre.oval.test:ste:1583"/>
         </regkeyeffectiverights_test>
-        <regkeyeffectiverights_test id="oval:org.mitre.oval.test:tst:1225" comment="Test that the recurse_direction behavior is supported in the 'up' direction." version="1" check_existence="at_least_one_exists" check="only one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-            <object object_ref="oval:org.mitre.oval.test:obj:515"/>
-            <state state_ref="oval:org.mitre.oval.test:ste:1337"/>
+        <regkeyeffectiverights_test id="oval:org.mitre.oval.test:tst:91225" comment="Test that the recurse_direction behavior is supported in the 'up' direction." version="1" check_existence="at_least_one_exists" check="only one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+            <object object_ref="oval:org.mitre.oval.test:obj:9515"/>
+            <state state_ref="oval:org.mitre.oval.test:ste:91337"/>
         </regkeyeffectiverights_test>
-        <regkeyeffectiverights_test id="oval:org.mitre.oval.test:tst:1923" comment="Test that the include_group behavior is supported." version="1" check_existence="at_least_one_exists" check="only one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-            <object object_ref="oval:org.mitre.oval.test:obj:617"/>
-            <state state_ref="oval:org.mitre.oval.test:ste:1163"/>
+        <regkeyeffectiverights_test id="oval:org.mitre.oval.test:tst:91923" comment="Test that the include_group behavior is supported." version="1" check_existence="at_least_one_exists" check="only one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+            <object object_ref="oval:org.mitre.oval.test:obj:9617"/>
+            <state state_ref="oval:org.mitre.oval.test:ste:91163"/>
         </regkeyeffectiverights_test>
-        <regkeyeffectiverights_test id="oval:org.mitre.oval.test:tst:1370" comment="Test that the resolve_group behavior is supported." version="1" check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-            <object object_ref="oval:org.mitre.oval.test:obj:1468"/>
-            <state state_ref="oval:org.mitre.oval.test:ste:962"/>
+        <regkeyeffectiverights_test id="oval:org.mitre.oval.test:tst:91370" comment="Test that the resolve_group behavior is supported." version="1" check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+            <object object_ref="oval:org.mitre.oval.test:obj:91468"/>
+            <state state_ref="oval:org.mitre.oval.test:ste:9962"/>
         </regkeyeffectiverights_test>
     </tests>
     <objects>
-        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:563" version="1" comment="This regkeyeffectiverights_object with hive equals 'HKEY_LOCAL_MACHINE' key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:9563" version="1" comment="This regkeyeffectiverights_object with hive equals 'HKEY_LOCAL_MACHINE' key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <hive datatype="string" operation="equals">HKEY_LOCAL_MACHINE</hive>
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT\CurrentVersion</key>
             <trustee_name datatype="string" operation="equals">ADMINISTRATORS</trustee_name>
         </regkeyeffectiverights_object>
-        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:825" version="1" comment="This regkeyeffectiverights_object with hive equals 'HKEY_LOCAL_MACHINE' key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name that matches the regular expression '.*'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:9825" version="1" comment="This regkeyeffectiverights_object with hive equals 'HKEY_LOCAL_MACHINE' key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name that matches the regular expression '.*'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <hive datatype="string" operation="equals">HKEY_LOCAL_MACHINE</hive>
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT\CurrentVersion</key>
             <trustee_name datatype="string" operation="pattern match">.*</trustee_name>
@@ -77,31 +77,31 @@
             <key datatype="string" operation="pattern match">^SOFTWARE\\Micros[oft]{3}\\Windows NT\\CurrentVersion$</key>
             <trustee_name datatype="string" operation="equals">ADMINISTRATORS</trustee_name>      
         </regkeyeffectiverights_object>
-        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:1231" version="1" comment="This regkeyeffectiverights_object with hive starting at 'HKEY_LOCAL_MACHINE', recursing down 1 level, and key equals 'SOFTWARE\Microsoft\Windows NT' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:91231" version="1" comment="This regkeyeffectiverights_object with hive starting at 'HKEY_LOCAL_MACHINE', recursing down 1 level, and key equals 'SOFTWARE\Microsoft\Windows NT' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <behaviors max_depth="1" recurse_direction="down"/>
             <hive datatype="string" operation="equals">HKEY_LOCAL_MACHINE</hive>
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT</key>
             <trustee_name datatype="string" operation="equals">ADMINISTRATORS</trustee_name>
         </regkeyeffectiverights_object>
-        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:1273" version="1" comment="This regkeyeffectiverights_object with hive starting at 'HKEY_LOCAL_MACHINE', recursing down infinitely, and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:91273" version="1" comment="This regkeyeffectiverights_object with hive starting at 'HKEY_LOCAL_MACHINE', recursing down infinitely, and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <behaviors max_depth="-1" recurse_direction="down"/>
             <hive datatype="string" operation="equals">HKEY_LOCAL_MACHINE</hive>
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon</key>
             <trustee_name datatype="string" operation="equals">ADMINISTRATORS</trustee_name>
         </regkeyeffectiverights_object>
-        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:515" version="1" comment="This regkeyeffectiverights_object with hive starting at 'HKEY_LOCAL_MACHINE', recursing up 1 level, and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon', and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:9515" version="1" comment="This regkeyeffectiverights_object with hive starting at 'HKEY_LOCAL_MACHINE', recursing up 1 level, and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon', and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <behaviors max_depth="1" recurse_direction="up"/>
             <hive datatype="string" operation="equals">HKEY_LOCAL_MACHINE</hive>
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon</key>
             <trustee_name datatype="string" operation="equals">ADMINISTRATORS</trustee_name>
         </regkeyeffectiverights_object>
-        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:617" version="1" comment="This regkeyeffectiverights_object with hive equals 'HKEY_LOCAL_MACHINE', key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion'. and trustee_name equals 'ADMINISTRATORS' with include_group behavior set to false." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:9617" version="1" comment="This regkeyeffectiverights_object with hive equals 'HKEY_LOCAL_MACHINE', key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion'. and trustee_name equals 'ADMINISTRATORS' with include_group behavior set to false." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <behaviors resolve_group="true" include_group="true"/>
             <hive datatype="string" operation="equals">HKEY_LOCAL_MACHINE</hive>
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT\CurrentVersion</key>
             <trustee_name datatype="string" operation="equals">ADMINISTRATORS</trustee_name>
         </regkeyeffectiverights_object>
-        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:1468" version="1" comment="This regkeyeffectiverights_object with hive equals 'HKEY_LOCAL_MACHINE', a key equal to 'SOFTWARE\Microsoft\Windows NT\CurrentVersion', and trustee_name equals 'ADMINISTRATORS' with resolve_group behavior set to true." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_object id="oval:org.mitre.oval.test:obj:91468" version="1" comment="This regkeyeffectiverights_object with hive equals 'HKEY_LOCAL_MACHINE', a key equal to 'SOFTWARE\Microsoft\Windows NT\CurrentVersion', and trustee_name equals 'ADMINISTRATORS' with resolve_group behavior set to true." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <behaviors resolve_group="true" include_group="false"/>
             <hive datatype="string" operation="equals">HKEY_LOCAL_MACHINE</hive>
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT\CurrentVersion</key>
@@ -109,7 +109,7 @@
         </regkeyeffectiverights_object>
     </objects>
     <states>
-        <regkeyeffectiverights_state id="oval:org.mitre.oval.test:ste:793" version="1" comment="This regkeyeffectiverights_state represents a file which has a hive that equals 'HKEY_LOCAL_MACHINE' and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_state id="oval:org.mitre.oval.test:ste:9793" version="1" comment="This regkeyeffectiverights_state represents a file which has a hive that equals 'HKEY_LOCAL_MACHINE' and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <hive datatype="string" operation="equals">HKEY_LOCAL_MACHINE</hive>
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT\CurrentVersion</key>
             <trustee_name datatype="string" operation="equals">ADMINISTRATORS</trustee_name>
@@ -124,7 +124,7 @@
             <key datatype="string" operation="pattern match">^SOFTWARE\\Micros[oft]{3}\\Windows NT\\CurrentVersion$</key>
             <trustee_name datatype="string" operation="equals">ADMINISTRATORS</trustee_name>      
         </regkeyeffectiverights_state>
-        <regkeyeffectiverights_state id="oval:org.mitre.oval.test:ste:1251" version="1" comment="This regkeyeffectiverights_state represents a file which has a hive that equals 'HKEY_LOCAL_MACHINE' and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_state id="oval:org.mitre.oval.test:ste:91251" version="1" comment="This regkeyeffectiverights_state represents a file which has a hive that equals 'HKEY_LOCAL_MACHINE' and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <hive datatype="string" operation="equals">HKEY_LOCAL_MACHINE</hive>
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT\CurrentVersion</key>
             <trustee_name datatype="string" operation="equals">ADMINISTRATORS</trustee_name>        
@@ -134,17 +134,17 @@
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon</key>
             <trustee_name datatype="string" operation="equals">ADMINISTRATORS</trustee_name>
         </regkeyeffectiverights_state>
-        <regkeyeffectiverights_state id="oval:org.mitre.oval.test:ste:1337" version="1" comment="This regkeyeffectiverights_state represents a file which has a hive that equals 'HKEY_LOCAL_MACHINE' and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_state id="oval:org.mitre.oval.test:ste:91337" version="1" comment="This regkeyeffectiverights_state represents a file which has a hive that equals 'HKEY_LOCAL_MACHINE' and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <hive datatype="string" operation="equals">HKEY_LOCAL_MACHINE</hive>
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT\CurrentVersion</key>
             <trustee_name datatype="string" operation="equals">ADMINISTRATORS</trustee_name>
         </regkeyeffectiverights_state>    
-        <regkeyeffectiverights_state id="oval:org.mitre.oval.test:ste:1163" version="1" comment="This regkeyeffectiverights_state represents a file which has a hive that equals 'HKEY_LOCAL_MACHINE' and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_state id="oval:org.mitre.oval.test:ste:91163" version="1" comment="This regkeyeffectiverights_state represents a file which has a hive that equals 'HKEY_LOCAL_MACHINE' and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name equals 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <hive datatype="string" operation="equals">HKEY_LOCAL_MACHINE</hive>
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT\CurrentVersion</key>
             <trustee_name datatype="string" operation="equals">ADMINISTRATORS</trustee_name>
         </regkeyeffectiverights_state>
-        <regkeyeffectiverights_state id="oval:org.mitre.oval.test:ste:962" version="1" comment="This regkeyeffectiverights_state represents a file which has a hive that equals 'HKEY_LOCAL_MACHINE' and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name not equal to 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <regkeyeffectiverights_state id="oval:org.mitre.oval.test:ste:9962" version="1" comment="This regkeyeffectiverights_state represents a file which has a hive that equals 'HKEY_LOCAL_MACHINE' and key equals 'SOFTWARE\Microsoft\Windows NT\CurrentVersion' and trustee_name not equal to 'ADMINISTRATORS'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <hive datatype="string" operation="equals">HKEY_LOCAL_MACHINE</hive>
             <key datatype="string" operation="equals">SOFTWARE\Microsoft\Windows NT\CurrentVersion</key>
             <trustee_name datatype="string" operation="not equal">ADMINISTRATORS</trustee_name>

@@ -49,15 +49,15 @@
           <criterion negate="true" comment="Test that the bitwise or operation is supported with a single integer where the result is not the same as the state mask." test_ref="oval:org.mitre.oval.test:tst:1213"/>
         </criteria>
         <criteria operator="AND" comment="True if 64 bit signed/unsigned edge cases are supported">
-          <criterion comment="Test that the value '-1' is greater than '-9223372036854775808'." test_ref="oval:org.mitre.oval.test:tst:1694"/>
-          <criterion comment="Test that the value '9223372036854775807' is less than or equal to '9223372036854775808'." test_ref="oval:org.mitre.oval.test:tst:1688"/>
+          <criterion comment="Test that the value '-1' is greater than '-9223372036854775808'." test_ref="oval:org.mitre.oval.test:tst:91694"/>
+          <criterion comment="Test that the value '9223372036854775807' is less than or equal to '9223372036854775808'." test_ref="oval:org.mitre.oval.test:tst:91688"/>
           <criterion comment="Test that the value '0' is greater than '-9223372036854775808'." test_ref="oval:org.mitre.oval.test:tst:1154"/>
           <criterion comment="Test that the value '0' is less than or equal to '9223372036854775808'." test_ref="oval:org.mitre.oval.test:tst:1347"/>
-          <criterion comment="Tests the bitwise and operation with a collected value of '18446744073709551615' and the value '-1'." test_ref="oval:org.mitre.oval.test:tst:1560"/>
+          <criterion comment="Tests the bitwise and operation with a collected value of '18446744073709551615' and the value '-1'." test_ref="oval:org.mitre.oval.test:tst:91560"/>
           <criterion comment="Test that the value '9223372036854775808' is greater than '-9223372036854775808'." test_ref="oval:org.mitre.oval.test:tst:1989"/>
           <criterion comment="Test that the value '-9223372036854775808' is not equal to '0'." test_ref="oval:org.mitre.oval.test:tst:1562"/>
           <criterion comment="Test that the value '9223372036854775807' is equal to '9223372036854775807'." test_ref="oval:org.mitre.oval.test:tst:1442"/>
-          <criterion comment="Tests the bitwise or operation with a collected value of '-1' and the value '18446744073709551615'." test_ref="oval:org.mitre.oval.test:tst:1674"/>
+          <criterion comment="Tests the bitwise or operation with a collected value of '-1' and the value '18446744073709551615'." test_ref="oval:org.mitre.oval.test:tst:91674"/>
         </criteria>        
       </criteria>
     </definition>
@@ -143,39 +143,39 @@
       <object object_ref="oval:org.mitre.oval.test:obj:161"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1085"/>
     </variable_test>
-    <variable_test id="oval:org.mitre.oval.test:tst:1694" version="1" comment="Test that the value '-1' is greater than '-9223372036854775808'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_test id="oval:org.mitre.oval.test:tst:91694" version="1" comment="Test that the value '-1' is greater than '-9223372036854775808'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1314"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1507"/>
     </variable_test>
-    <variable_test id="oval:org.mitre.oval.test:tst:1688" version="1" comment="Test that the value '9223372036854775807' is less than or equal to '9223372036854775808'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:693"/>
+    <variable_test id="oval:org.mitre.oval.test:tst:91688" version="1" comment="Test that the value '9223372036854775807' is less than or equal to '9223372036854775808'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+      <object object_ref="oval:org.mitre.oval.test:obj:9693"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1567"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1154" version="1" comment="Test that the value '0' is greater than '-9223372036854775808'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:1122"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:91122"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1507"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1347" version="1" comment="Test that the value '0' is less than or equal to '9223372036854775808'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:1122"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:91122"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1567"/>
     </variable_test>
-    <variable_test id="oval:org.mitre.oval.test:tst:1560" version="1" comment="Tests the bitwise and operation with a collected value of '18446744073709551615' and the value '-1'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_test id="oval:org.mitre.oval.test:tst:91560" version="1" comment="Tests the bitwise and operation with a collected value of '18446744073709551615' and the value '-1'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1066"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1039"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:91039"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1989" version="1" comment="Test that the value '9223372036854775808' is greater than '-9223372036854775808'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:604"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9604"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1507"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1562" version="1" comment="Test that the value '-9223372036854775808' is not equal to '0'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:1292"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:91292"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1356"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1442" version="1" comment="Test that the value '9223372036854775807' is equal to '9223372036854775807'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:693"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9693"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1262"/>
     </variable_test>
-    <variable_test id="oval:org.mitre.oval.test:tst:1674" version="1" comment="Tests the bitwise or operation with a collected value of '-1' and the value '18446744073709551615'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_test id="oval:org.mitre.oval.test:tst:91674" version="1" comment="Tests the bitwise or operation with a collected value of '-1' and the value '18446744073709551615'." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1314"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1083"/>
     </variable_test>
@@ -196,20 +196,20 @@
     <variable_object id="oval:org.mitre.oval.test:obj:161" version="1" comment="This variable_object references the integer value '1'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <var_ref>oval:org.mitre.oval.test:var:133</var_ref>
     </variable_object>
-    <variable_object id="oval:org.mitre.oval.test:obj:1292" version="1" comment="This variable_object represents the integer value '-9223372036854775808'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <var_ref>oval:org.mitre.oval.test:var:544</var_ref>
+    <variable_object id="oval:org.mitre.oval.test:obj:91292" version="1" comment="This variable_object represents the integer value '-9223372036854775808'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+      <var_ref>oval:org.mitre.oval.test:var:9544</var_ref>
     </variable_object>
     <variable_object id="oval:org.mitre.oval.test:obj:1314" version="1" comment="This variable_object represents the integer value '-1'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <var_ref>oval:org.mitre.oval.test:var:589</var_ref>
+      <var_ref>oval:org.mitre.oval.test:var:9589</var_ref>
     </variable_object>
-    <variable_object id="oval:org.mitre.oval.test:obj:1122" version="1" comment="This variable_object represents the integer value '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <var_ref>oval:org.mitre.oval.test:var:408</var_ref>
+    <variable_object id="oval:org.mitre.oval.test:obj:91122" version="1" comment="This variable_object represents the integer value '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+      <var_ref>oval:org.mitre.oval.test:var:9408</var_ref>
     </variable_object>
-    <variable_object id="oval:org.mitre.oval.test:obj:693" version="1" comment="This variable_object represents the integer value '9223372036854775807'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <var_ref>oval:org.mitre.oval.test:var:473</var_ref>
+    <variable_object id="oval:org.mitre.oval.test:obj:9693" version="1" comment="This variable_object represents the integer value '9223372036854775807'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+      <var_ref>oval:org.mitre.oval.test:var:99473</var_ref>
     </variable_object>
-    <variable_object id="oval:org.mitre.oval.test:obj:604" version="1" comment="This variable_object represents the integer value '9223372036854775808'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <var_ref>oval:org.mitre.oval.test:var:852</var_ref>
+    <variable_object id="oval:org.mitre.oval.test:obj:9604" version="1" comment="This variable_object represents the integer value '9223372036854775808'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+      <var_ref>oval:org.mitre.oval.test:var:9852</var_ref>
     </variable_object>
     <variable_object id="oval:org.mitre.oval.test:obj:1066" version="1" comment="This variable_object represents the integer value '18446744073709551615'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <var_ref>oval:org.mitre.oval.test:var:979</var_ref>
@@ -279,7 +279,7 @@
     <variable_state id="oval:org.mitre.oval.test:ste:1507" version="1" comment="This variable_state represents the integer value '-9223372036854775808'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="int" operation="greater than">-9223372036854775808</value>
     </variable_state>
-    <variable_state id="oval:org.mitre.oval.test:ste:1039" version="1" comment="This variable_state represents the integer value '-1'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_state id="oval:org.mitre.oval.test:ste:91039" version="1" comment="This variable_state represents the integer value '-1'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="int" operation="bitwise and">-1</value>
     </variable_state>
     <variable_state id="oval:org.mitre.oval.test:ste:1356" version="1" comment="This variable_state represents the integer value '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
@@ -311,19 +311,19 @@
     <constant_variable id="oval:org.mitre.oval.test:var:133" version="1" comment="This constant_variable represents the integer value '1'." datatype="int">
       <value>1</value>
     </constant_variable>
-    <constant_variable id="oval:org.mitre.oval.test:var:544" version="1" comment="This constant_variable represents the integer value '-9223372036854775808'." datatype="int">
+    <constant_variable id="oval:org.mitre.oval.test:var:9544" version="1" comment="This constant_variable represents the integer value '-9223372036854775808'." datatype="int">
       <value>-9223372036854775808</value>
     </constant_variable>
-    <constant_variable id="oval:org.mitre.oval.test:var:589" version="1" comment="This constant_variable represents the integer value '-1'." datatype="int">
+    <constant_variable id="oval:org.mitre.oval.test:var:9589" version="1" comment="This constant_variable represents the integer value '-1'." datatype="int">
       <value>-1</value>
     </constant_variable>
-    <constant_variable id="oval:org.mitre.oval.test:var:408" version="1" comment="This constant_variable represents the integer value '0'." datatype="int">
+    <constant_variable id="oval:org.mitre.oval.test:var:9408" version="1" comment="This constant_variable represents the integer value '0'." datatype="int">
       <value>0</value>
     </constant_variable>
-    <constant_variable id="oval:org.mitre.oval.test:var:473" version="1" comment="This constant_variable represents the integer value '9223372036854775807'." datatype="int">
+    <constant_variable id="oval:org.mitre.oval.test:var:99473" version="1" comment="This constant_variable represents the integer value '9223372036854775807'." datatype="int">
       <value>9223372036854775807</value>
     </constant_variable>
-    <constant_variable id="oval:org.mitre.oval.test:var:852" version="1" comment="This constant_variable represents the integer value '9223372036854775808'." datatype="int">
+    <constant_variable id="oval:org.mitre.oval.test:var:9852" version="1" comment="This constant_variable represents the integer value '9223372036854775808'." datatype="int">
       <value>9223372036854775808</value>
     </constant_variable>
     <constant_variable id="oval:org.mitre.oval.test:var:979" version="1" comment="This constant_variable represents the integer value '18446744073709551615'." datatype="int">

@@ -47,7 +47,7 @@
       check_existence="at_least_one_exists" check="all"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1380"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:895"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:9895"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1710" comment="test not equal" version="1"
       check_existence="at_least_one_exists" check="all"
@@ -113,14 +113,14 @@
       version="1" check_existence="at_least_one_exists" check="all"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1221"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1660"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:91660"/>
     </variable_test>
   </tests>
   <objects>
     <variable_object id="oval:org.mitre.oval.test:obj:1380" version="1"
       comment="get the value of var:1 (which is 1.2.3.4)"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <var_ref>oval:org.mitre.oval.test:var:642</var_ref>
+      <var_ref>oval:org.mitre.oval.test:var:9642</var_ref>
     </variable_object>
     <variable_object id="oval:org.mitre.oval.test:obj:1221" version="1"
       comment="get the value of var:2 (which is 1.2.3.4/16)"
@@ -133,7 +133,7 @@
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="ipv4_address" operation="equals">1.2.3.4</value>
     </variable_state>
-    <variable_state id="oval:org.mitre.oval.test:ste:895" version="1" comment="address != 4.3.2.1"
+    <variable_state id="oval:org.mitre.oval.test:ste:9895" version="1" comment="address != 4.3.2.1"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="ipv4_address" operation="not equal">4.3.2.1</value>
     </variable_state>
@@ -177,14 +177,14 @@
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="ipv4_address" operation="superset of">1.2.3.4</value>
     </variable_state>
-    <variable_state id="oval:org.mitre.oval.test:ste:1660" version="1"
+    <variable_state id="oval:org.mitre.oval.test:ste:91660" version="1"
       comment="address is superset of 1.2.33.44"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="ipv4_address" operation="superset of">1.2.33.44</value>
     </variable_state>
   </states>
   <variables>
-    <constant_variable id="oval:org.mitre.oval.test:var:642" version="1" datatype="ipv4_address" comment="1.2.3.4">
+    <constant_variable id="oval:org.mitre.oval.test:var:9642" version="1" datatype="ipv4_address" comment="1.2.3.4">
       <value>01.002.0003.00004</value>
     </constant_variable>
     <constant_variable id="oval:org.mitre.oval.test:var:739" version="1" datatype="ipv4_address" comment="1.2.3.4/16">

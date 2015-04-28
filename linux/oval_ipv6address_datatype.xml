@@ -40,32 +40,32 @@
     <variable_test id="oval:org.mitre.oval.test:tst:1082" comment="test equals" version="1"
       check_existence="at_least_one_exists" check="all"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:721"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9721"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1533"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1782" comment="test not equal" version="1"
       check_existence="at_least_one_exists" check="all"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:721"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9721"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1033"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1758" comment="test not equal" version="1"
       check_existence="at_least_one_exists" check="all"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:721"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9721"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1354"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1111" comment="test greater than" version="1"
       check_existence="at_least_one_exists" check="all"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:721"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9721"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1479"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:2026" comment="test greater than or equal" version="1"
       check_existence="at_least_one_exists" check="all"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:721"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:951"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9721"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:9951"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1920" comment="test greater than or equal" version="1"
       check_existence="at_least_one_exists" check="all"
@@ -76,7 +76,7 @@
     <variable_test id="oval:org.mitre.oval.test:tst:1893" comment="test less than" version="1"
       check_existence="at_least_one_exists" check="all"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:721"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9721"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1613"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1356" comment="test less than or equal" version="1"
@@ -88,25 +88,25 @@
     <variable_test id="oval:org.mitre.oval.test:tst:1520" comment="test less than or equal" version="1"
       check_existence="at_least_one_exists" check="all"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:721"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9721"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1013"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1114" comment="test subset of" version="1"
       check_existence="at_least_one_exists" check="all"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:721"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9721"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1288"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:2046" comment="test subset of" version="1"
       check_existence="at_least_one_exists" check="all"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:721"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9721"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1122"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1331" comment="test superset of" version="1"
       check_existence="at_least_one_exists" check="all"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:721"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9721"/>
       <state state_ref="oval:org.mitre.oval.test:ste:790"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1264" comment="test superset of" version="1"
@@ -117,7 +117,7 @@
     </variable_test>
   </tests>
   <objects>
-    <variable_object id="oval:org.mitre.oval.test:obj:721" version="1"
+    <variable_object id="oval:org.mitre.oval.test:obj:9721" version="1"
       comment="get the value of var:1 (which is 1:2:3:4::)"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <var_ref>oval:org.mitre.oval.test:var:484</var_ref>
@@ -145,7 +145,7 @@
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="ipv6_address" operation="greater than">::1:2:1:7</value>
     </variable_state>
-    <variable_state id="oval:org.mitre.oval.test:ste:951" version="1" comment="address &gt;= ::1:2:1:7"
+    <variable_state id="oval:org.mitre.oval.test:ste:9951" version="1" comment="address &gt;= ::1:2:1:7"
       xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="ipv6_address" operation="greater than or equal">::1:2:1:7</value>
     </variable_state>

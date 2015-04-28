@@ -6,7 +6,7 @@
       <terms_of_use>Copyright (c) 2002-2013, The MITRE Corporation. All rights reserved. The contents of this file are subject to the license described in terms.txt.</terms_of_use>
   </generator>
     <definitions>
-        <definition id="oval:org.mitre.oval.test:def:922" version="1" class="miscellaneous">
+        <definition id="oval:org.mitre.oval.test:def:9922" version="1" class="miscellaneous">
             <metadata>
                 <title>Evaluate to true if the win-def:wmi57_test is properly supported.</title>
                 <description>This definition is intended to evalutate to true if the interpreter properly supports the win-def:wmi57_test.</description>
@@ -16,14 +16,14 @@
             </notes>
             
             <criteria>
-                <criterion comment="Test that a wmi57_object with a namespace and wql is supported." test_ref="oval:org.mitre.oval.test:tst:1780"/> 
+                <criterion comment="Test that a wmi57_object with a namespace and wql is supported." test_ref="oval:org.mitre.oval.test:tst:91780"/> 
             </criteria>
         </definition>
     </definitions> 
     <tests> 
-        <wmi57_test id="oval:org.mitre.oval.test:tst:1780" version="1" comment="Test that a wmi57_object with a namespace and wql is supported." check_existence="at_least_one_exists" check="all"  xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <wmi57_test id="oval:org.mitre.oval.test:tst:91780" version="1" comment="Test that a wmi57_object with a namespace and wql is supported." check_existence="at_least_one_exists" check="all"  xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <object object_ref="oval:org.mitre.oval.test:obj:1324"/>
-            <state state_ref="oval:org.mitre.oval.test:ste:887"/>
+            <state state_ref="oval:org.mitre.oval.test:ste:9887"/>
         </wmi57_test>
     </tests>
     <objects>       
@@ -33,7 +33,7 @@
         </wmi57_object>
     </objects>
     <states>
-        <wmi57_state id="oval:org.mitre.oval.test:ste:887" version="1" comment="This state represents a wmi57_object that has a namespace that equals 'root\cimv2', a wql equal that equals 'SELECT ProcessId, Name, Description FROM Win32_Process', and has at least one result with a 'processid' field greater than or equal to '0', a 'name' field equal to 'explorer.exe', and a 'description' field that matches the regular expression '.*'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+        <wmi57_state id="oval:org.mitre.oval.test:ste:9887" version="1" comment="This state represents a wmi57_object that has a namespace that equals 'root\cimv2', a wql equal that equals 'SELECT ProcessId, Name, Description FROM Win32_Process', and has at least one result with a 'processid' field greater than or equal to '0', a 'name' field equal to 'explorer.exe', and a 'description' field that matches the regular expression '.*'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
             <namespace>root\cimv2</namespace>
             <wql>SELECT ProcessId, Name, Description FROM Win32_Process</wql>
             <result entity_check="at least one" datatype="record">

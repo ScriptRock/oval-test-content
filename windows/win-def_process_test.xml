@@ -18,8 +18,8 @@
       </notes>
       <criteria operator="AND">
         <criterion comment="Test that a process_object with a command_line is supported." test_ref="oval:org.mitre.oval.test:tst:1135"/>
-        <criterion comment="Test that a process_object with a command_line pattern match is supported." test_ref="oval:org.mitre.oval.test:tst:1114"/>
-        <criterion comment="Test that a process_object with a command_line not equals is supported." test_ref="oval:org.mitre.oval.test:tst:1278"/>
+        <criterion comment="Test that a process_object with a command_line pattern match is supported." test_ref="oval:org.mitre.oval.test:tst:99991114"/>
+        <criterion comment="Test that a process_object with a command_line not equals is supported." test_ref="oval:org.mitre.oval.test:tst:91278"/>
       </criteria>
     </definition>
   </definitions>
@@ -28,11 +28,11 @@
       <object object_ref="oval:org.mitre.oval.test:obj:292"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1236"/>
     </process_test>
-    <process_test id="oval:org.mitre.oval.test:tst:1114" version="1" comment="Test that a process_object with a command_line pattern match is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+    <process_test id="oval:org.mitre.oval.test:tst:99991114" version="1" comment="Test that a process_object with a command_line pattern match is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <object object_ref="oval:org.mitre.oval.test:obj:939"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1222"/>
     </process_test>
-    <process_test id="oval:org.mitre.oval.test:tst:1278" version="1" comment="Test that a process_object with a command_line not equals is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+    <process_test id="oval:org.mitre.oval.test:tst:91278" version="1" comment="Test that a process_object with a command_line not equals is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <object object_ref="oval:org.mitre.oval.test:obj:903"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1222"/>
     </process_test>

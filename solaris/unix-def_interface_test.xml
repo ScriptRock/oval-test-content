@@ -17,7 +17,7 @@
       </notes>
       <criteria operator="AND">
         <criterion comment="Test that the interface_object is supported with the name entity equal to some value." test_ref="oval:org.mitre.oval.test:tst:1418"/>
-        <criterion comment="Test that the interface_object is supported with the name entity not equal to some value." test_ref="oval:org.mitre.oval.test:tst:2026"/>
+        <criterion comment="Test that the interface_object is supported with the name entity not equal to some value." test_ref="oval:org.mitre.oval.test:tst:9992026"/>
         <criterion comment="Test that the interface_object is supported with the name entity matching some regular expression." test_ref="oval:org.mitre.oval.test:tst:1096"/>
         <criterion comment="Test that the interface_object is supported with the name entity equal to some value using the var_ref attribute." test_ref="oval:org.mitre.oval.test:tst:1307"/>
         <criterion comment="Test that the interface_object is supported with the name entity not equal to some value using the var_ref attribute." test_ref="oval:org.mitre.oval.test:tst:1509"/>
@@ -30,7 +30,7 @@
       <object object_ref="oval:org.mitre.oval.test:obj:1251"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1602"/>
     </interface_test>
-    <interface_test id="oval:org.mitre.oval.test:tst:2026" version="1" comment="Test that the interface_object is supported with the name entity not equal to some value." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
+    <interface_test id="oval:org.mitre.oval.test:tst:9992026" version="1" comment="Test that the interface_object is supported with the name entity not equal to some value." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
       <object object_ref="oval:org.mitre.oval.test:obj:1307"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1602"/>
     </interface_test>

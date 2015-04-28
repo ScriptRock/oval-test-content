@@ -19,7 +19,7 @@
         <criterion comment="Test that a sid_sid_object with a trustee_sid pattern match is supported." test_ref="oval:org.mitre.oval.test:tst:1362"/>
         <criterion comment="Test that a sid_sid_object with a trustee_sid not equals is supported." test_ref="oval:org.mitre.oval.test:tst:1228"/>
         <criterion comment="Test that the include_group behavior is supported." test_ref="oval:org.mitre.oval.test:tst:533"/>
-        <criterion comment="Test that the resolve_group behavior is supported." test_ref="oval:org.mitre.oval.test:tst:1154"/>
+        <criterion comment="Test that the resolve_group behavior is supported." test_ref="oval:org.mitre.oval.test:tst:91154"/>
       </criteria>
     </definition>
   </definitions>
@@ -38,11 +38,11 @@
     </sid_sid_test>
     <sid_sid_test id="oval:org.mitre.oval.test:tst:533" version="1" comment="Test that the include_group behavior is supported." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <object object_ref="oval:org.mitre.oval.test:obj:553"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1262"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:91262"/>
     </sid_sid_test>
-    <sid_sid_test id="oval:org.mitre.oval.test:tst:1154" version="1" comment="Test that the resolve_group behavior is supported." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+    <sid_sid_test id="oval:org.mitre.oval.test:tst:91154" version="1" comment="Test that the resolve_group behavior is supported." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <object object_ref="oval:org.mitre.oval.test:obj:431"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1280"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:99991280"/>
     </sid_sid_test>
   </tests>
   <objects>
@@ -74,10 +74,10 @@
     <sid_sid_state id="oval:org.mitre.oval.test:ste:617" version="1" comment="This represents a sid_sid_state which has a trustee_sid that is not equal to 'S-1-5-32-544'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <trustee_sid operation="not equal">S-1-5-32-544</trustee_sid>
     </sid_sid_state>
-    <sid_sid_state id="oval:org.mitre.oval.test:ste:1262" version="1" comment="This represents a sid_sid_state which has a trustee_sid that is not equal to 'S-1-5-32-544'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+    <sid_sid_state id="oval:org.mitre.oval.test:ste:91262" version="1" comment="This represents a sid_sid_state which has a trustee_sid that is not equal to 'S-1-5-32-544'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <trustee_sid operation="not equal">S-1-5-32-544</trustee_sid>
     </sid_sid_state>
-    <sid_sid_state id="oval:org.mitre.oval.test:ste:1280" version="1" comment="This represents a sid_sid_state which has a trustee_sid that equals 'S-1-5-32-544'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+    <sid_sid_state id="oval:org.mitre.oval.test:ste:99991280" version="1" comment="This represents a sid_sid_state which has a trustee_sid that equals 'S-1-5-32-544'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <trustee_sid>S-1-5-32-544</trustee_sid>
     </sid_sid_state>
   </states>

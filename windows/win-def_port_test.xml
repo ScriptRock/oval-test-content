@@ -33,7 +33,7 @@
     </port_test>
     <port_test id="oval:org.mitre.oval.test:tst:1304" version="1" comment="Test that a port_object with a local_address pattern match, local_port, and protocol is supported." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <object object_ref="oval:org.mitre.oval.test:obj:1034"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1060"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:91060"/>
     </port_test>
   </tests>
   <objects>
@@ -66,7 +66,7 @@
       <protocol operation="pattern match" var_ref="oval:org.mitre.oval.test:var:442" var_check="all"/>
       <pid datatype="int" operation="greater than or equal">0</pid>
     </port_state>
-    <port_state id="oval:org.mitre.oval.test:ste:1060" version="1" comment="This state represents a port with a local address that matches the regular expression '([0-9])*\.([0-9])*\.([0-9])*\.([0-9])*', a local port that is less than or equal to '0', a protocol not equal to 'UDP', and a pid greater than or equal to '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+    <port_state id="oval:org.mitre.oval.test:ste:91060" version="1" comment="This state represents a port with a local address that matches the regular expression '([0-9])*\.([0-9])*\.([0-9])*\.([0-9])*', a local port that is less than or equal to '0', a protocol not equal to 'UDP', and a pid greater than or equal to '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <local_address operation="pattern match">([0-9])*\.([0-9])*\.([0-9])*\.([0-9])*</local_address>
       <local_port datatype="int" operation="less than or equal">65535</local_port>
       <protocol operation="not equal">UDP</protocol>

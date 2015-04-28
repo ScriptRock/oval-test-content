@@ -17,7 +17,7 @@
       <criteria>
         <criterion comment="Test that the xmlfilecontent_object with a path, filename, and xpath is supported." test_ref="oval:org.mitre.oval.test:tst:1504"/>
         <criterion comment="Test that the xmlfilecontent_object with a path pattern match, filename, and xpath is supported." test_ref="oval:org.mitre.oval.test:tst:1438"/>
-        <criterion comment="Test that the xmlfilecontent_object with a path, filename pattern match, and xpath is supported." test_ref="oval:org.mitre.oval.test:tst:1645"/>
+        <criterion comment="Test that the xmlfilecontent_object with a path, filename pattern match, and xpath is supported." test_ref="oval:org.mitre.oval.test:tst:991645"/>
         <criterion comment="Test that the xmlfilecontent_object with a path, filename not equals, and xpath is supported." test_ref="oval:org.mitre.oval.test:tst:1295"/>
         <criterion comment="Test that the max_depth behavior is supported with a limited depth of recursion." test_ref="oval:org.mitre.oval.test:tst:1332"/>
         <criterion comment="Test that the max_depth behavior is supported with a unlimited depth of recursion." test_ref="oval:org.mitre.oval.test:tst:1316"/>
@@ -34,7 +34,7 @@
       <object object_ref="oval:org.mitre.oval.test:obj:965"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1314"/>
     </xmlfilecontent_test>
-    <xmlfilecontent_test id="oval:org.mitre.oval.test:tst:1645" version="1" comment="Test that the xmlfilecontent_object with a path, filename pattern match, and xpath is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <xmlfilecontent_test id="oval:org.mitre.oval.test:tst:991645" version="1" comment="Test that the xmlfilecontent_object with a path, filename pattern match, and xpath is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:160"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1130"/>
     </xmlfilecontent_test>
@@ -44,7 +44,7 @@
     </xmlfilecontent_test>
     <xmlfilecontent_test id="oval:org.mitre.oval.test:tst:1332" version="2" comment="Test that the max_depth behavior is supported with a limited depth of recursion." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1152"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1354"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:991354"/>
     </xmlfilecontent_test>
     <xmlfilecontent_test id="oval:org.mitre.oval.test:tst:1316" version="2" comment="Test that the max_depth behavior is supported with a unlimited depth of recursion." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1018"/>
@@ -120,7 +120,7 @@
       <xpath>//*/grades/grade[@type='test']/text()</xpath>
       <value_of operation="pattern match">(83|87|93|86|100|76|53|97)</value_of>
     </xmlfilecontent_state>
-    <xmlfilecontent_state id="oval:org.mitre.oval.test:ste:1354" version="2" comment="This state represents a xmlfilecontent_item with a path that matches the regular expression '^/tmp/support/xml/classes/class[0-9]$', a filename equal to 'section1.xml', an xpath query equal to '//*/grades/grade[@type='test']/text()', and a value_of that matches the regular expression '(83|87|93|86|100|76|53|97)'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <xmlfilecontent_state id="oval:org.mitre.oval.test:ste:991354" version="2" comment="This state represents a xmlfilecontent_item with a path that matches the regular expression '^/tmp/support/xml/classes/class[0-9]$', a filename equal to 'section1.xml', an xpath query equal to '//*/grades/grade[@type='test']/text()', and a value_of that matches the regular expression '(83|87|93|86|100|76|53|97)'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <path operation="pattern match">^/tmp/support/xml/classes/class[0-9]$</path>
       <filename>section1.xml</filename>
       <xpath>//*/grades/grade[@type='test']/text()</xpath>

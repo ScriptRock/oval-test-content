@@ -67,7 +67,7 @@
       <value/>
     </variable_state>
     <variable_state id="oval:org.mitre.oval.test:ste:785" version="2" comment="The state where each value is either an empty string or a '-'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <value var_ref="oval:org.mitre.oval.test:var:114" var_check="at least one"/>
+      <value var_ref="oval:org.mitre.oval.test:var:9114" var_check="at least one"/>
     </variable_state>
     <variable_state id="oval:org.mitre.oval.test:ste:441" version="1" comment="The string 'foobar'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value>foobar</value>
@@ -112,7 +112,7 @@
       <value>b</value>
       <value>c</value>
     </constant_variable>
-    <constant_variable id="oval:org.mitre.oval.test:var:114" version="1" comment="match empty string and '-'" datatype="string">
+    <constant_variable id="oval:org.mitre.oval.test:var:9114" version="1" comment="match empty string and '-'" datatype="string">
       <value/>
       <value>-</value>
     </constant_variable>

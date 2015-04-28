@@ -77,7 +77,7 @@
   </tests>
   <objects>
     <variable_object id="oval:org.mitre.oval.test:obj:103" version="1" comment="This variable_object references the integer value '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <var_ref>oval:org.mitre.oval.test:var:792</var_ref>
+      <var_ref>oval:org.mitre.oval.test:var:9792</var_ref>
     </variable_object>
     <variable_object id="oval:org.mitre.oval.test:obj:884" version="1" comment="This variable_object references the integer values '1', '2', and '3'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <var_ref>oval:org.mitre.oval.test:var:986</var_ref>
@@ -107,7 +107,7 @@
     </variable_state>
   </states>
   <variables>
-    <constant_variable id="oval:org.mitre.oval.test:var:792" version="1" comment="This constant_variable represents the integer value '0'." datatype="int">
+    <constant_variable id="oval:org.mitre.oval.test:var:9792" version="1" comment="This constant_variable represents the integer value '0'." datatype="int">
       <value>0</value>
     </constant_variable>
     <constant_variable id="oval:org.mitre.oval.test:var:986" version="1" comment="This constant_variable represents the integer values '1', '2', and '3'." datatype="int">

@@ -25,7 +25,7 @@
       <state state_ref="oval:org.mitre.oval.test:ste:1359"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1431" version="1" comment="Test that the object_component is supported with a object_ref attritbute that specifies an object which references multiple items and an item_field attribute that specifies a field in an item that that occurs only once." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:1221"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:991221"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1359"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1632" version="1" comment="Test that the object_component is supported with a object_ref attritbute that specifies an object which references a single item and an item_field attribute that specifies a field in an item that that occurs multiple times." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
@@ -65,7 +65,7 @@
     <variable_object id="oval:org.mitre.oval.test:obj:1254" version="1" comment="This variable_object references a local_variable which retrieves the 'value' item_field of the variable_object 'oval:org.mitre.oval.test:var:163' using the object_component construct." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <var_ref>oval:org.mitre.oval.test:var:163</var_ref>
     </variable_object>
-    <variable_object id="oval:org.mitre.oval.test:obj:1221" version="1" comment="This variable_object references a local_variable which retrieves the 'value' item_field of the variable_object 'oval:org.mitre.oval.test:var:631' using the object_component construct." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_object id="oval:org.mitre.oval.test:obj:991221" version="1" comment="This variable_object references a local_variable which retrieves the 'value' item_field of the variable_object 'oval:org.mitre.oval.test:var:631' using the object_component construct." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <var_ref>oval:org.mitre.oval.test:var:631</var_ref>
     </variable_object>
     <variable_object id="oval:org.mitre.oval.test:obj:702" version="1" comment="This variable_object references a local_variable which retrieves the 'value' item_field of the variable_object 'oval:org.mitre.oval.test:var:748' using the object_component construct." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">

@@ -13,7 +13,7 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Test that the local_variable construct is supported with a single value." test_ref="oval:org.mitre.oval.test:tst:1638"/>
-        <criterion comment="Test that the local_variable construct is supported with multiple values." test_ref="oval:org.mitre.oval.test:tst:1385"/>
+        <criterion comment="Test that the local_variable construct is supported with multiple values." test_ref="oval:org.mitre.oval.test:tst:991385"/>
       </criteria>
     </definition>
   </definitions>
@@ -22,7 +22,7 @@
       <object object_ref="oval:org.mitre.oval.test:obj:1106"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1402"/>
     </variable_test>
-    <variable_test id="oval:org.mitre.oval.test:tst:1385" version="1" comment="Test that the local_variable construct is supported with multiple values." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_test id="oval:org.mitre.oval.test:tst:991385" version="1" comment="Test that the local_variable construct is supported with multiple values." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1217"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1293"/>
     </variable_test>

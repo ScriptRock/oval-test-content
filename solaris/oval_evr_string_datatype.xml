@@ -17,7 +17,7 @@
           <criterion negate="true" comment="Test that the equals operation is supported with two unequal evr_string values." test_ref="oval:org.mitre.oval.test:tst:1164"/>
         </criteria>
         <criteria operator="AND" comment="True if the not equal operation is supported">
-          <criterion negate="true" comment="Test that the not equal operation is supported with two equal evr_string values." test_ref="oval:org.mitre.oval.test:tst:1616"/>
+          <criterion negate="true" comment="Test that the not equal operation is supported with two equal evr_string values." test_ref="oval:org.mitre.oval.test:tst:91616"/>
           <criterion comment="Test that the not equal operation is supported with two unequal evr_string values." test_ref="oval:org.mitre.oval.test:tst:1648"/>
         </criteria>
         <criteria operator="AND" comment="True if the greater than operation is supported">
@@ -52,7 +52,7 @@
       <object object_ref="oval:org.mitre.oval.test:obj:1130"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1528"/>
     </variable_test>
-    <variable_test id="oval:org.mitre.oval.test:tst:1616" version="1" comment="Test that the not equal operation is supported with two equal evr_string values." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_test id="oval:org.mitre.oval.test:tst:91616" version="1" comment="Test that the not equal operation is supported with two equal evr_string values." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1002"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1299"/>
     </variable_test>
