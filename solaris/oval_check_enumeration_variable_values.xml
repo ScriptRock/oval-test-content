@@ -16,7 +16,7 @@
         <criterion negate="true" comment="Test that the CheckEnumeration value 'all' is supported where none of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:1140"/>
         <criterion comment="Test that the CheckEnumeration value 'at least one' is supported where more than one of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:1022"/>
         <criterion comment="Test that the CheckEnumeration value 'at least one' is supported where one of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:1719"/>
-        <criterion negate="true" comment="Test that the CheckEnumeration value 'at least one' is supported where none of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:1710"/>
+        <criterion negate="true" comment="Test that the CheckEnumeration value 'at least one' is supported where none of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:991710"/>
         <criterion negate="true" comment="Test that the CheckEnumeration value 'none satisfy' is supported where all of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:1250"/>
         <criterion comment="Test that the CheckEnumeration value 'none satisfy' is supported where none of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:1458"/>
         <criterion negate="true" comment="Test that the CheckEnumeration value 'only one' is supported where more than one of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:804"/>
@@ -42,9 +42,9 @@
       <object object_ref="oval:org.mitre.oval.test:obj:311"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1233"/>
     </variable_test>
-    <variable_test id="oval:org.mitre.oval.test:tst:1710" version="1" comment="Test that the CheckEnumeration value 'at least one' is supported where none of the individual results are true." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_test id="oval:org.mitre.oval.test:tst:991710" version="1" comment="Test that the CheckEnumeration value 'at least one' is supported where none of the individual results are true." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:311"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1171"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:91171"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1250" version="1" comment="Test that the CheckEnumeration value 'none satisfy' is supported where all of the individual results are true." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:311"/>
@@ -85,7 +85,7 @@
     <variable_state id="oval:org.mitre.oval.test:ste:1233" version="1" comment="This variable_state represents a variable_object where all of the values are equal to at least one of the integer values '1', '2', and '3'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="int" var_ref="oval:org.mitre.oval.test:var:36" var_check="at least one"/>
     </variable_state>
-    <variable_state id="oval:org.mitre.oval.test:ste:1171" version="1" comment="This variable_state represents a variable_object where all of the values are less than at least one of the integer values '-1', '-2', and '-3'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_state id="oval:org.mitre.oval.test:ste:91171" version="1" comment="This variable_state represents a variable_object where all of the values are less than at least one of the integer values '-1', '-2', and '-3'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="int" operation="less than" var_ref="oval:org.mitre.oval.test:var:480" var_check="at least one"/>
     </variable_state>
     <variable_state id="oval:org.mitre.oval.test:ste:1444" version="1" comment="This variable_state represents a variable_object where all of the values are not greater than the integer values '-1', '-2', and '-3'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">

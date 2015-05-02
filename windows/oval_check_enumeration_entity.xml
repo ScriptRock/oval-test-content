@@ -21,7 +21,7 @@
         <criterion comment="Test that the CheckEnumeration value 'none satisfy' is supported where none of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:1068"/>
         <criterion negate="true" comment="Test that the CheckEnumeration value 'only one' is supported where more than one of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:1070"/>
         <criterion comment="Test that the CheckEnumeration value 'only one' is supported where one of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:1043"/>
-        <criterion negate="true" comment="Test that the CheckEnumeration value 'only one' is supported where none of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:1090"/>
+        <criterion negate="true" comment="Test that the CheckEnumeration value 'only one' is supported where none of the individual results are true." test_ref="oval:org.mitre.oval.test:tst:9991090"/>
       </criteria>
     </definition>
   </definitions>
@@ -62,7 +62,7 @@
       <object object_ref="oval:org.mitre.oval.test:obj:946"/>
       <state state_ref="oval:org.mitre.oval.test:ste:286"/>
     </variable_test>
-    <variable_test id="oval:org.mitre.oval.test:tst:1090" version="1" comment="Test that the CheckEnumeration value 'only one' is supported where none of the individual results are true." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_test id="oval:org.mitre.oval.test:tst:9991090" version="1" comment="Test that the CheckEnumeration value 'only one' is supported where none of the individual results are true." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:946"/>
       <state state_ref="oval:org.mitre.oval.test:ste:78"/>
     </variable_test>

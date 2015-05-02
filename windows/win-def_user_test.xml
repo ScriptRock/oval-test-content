@@ -16,14 +16,14 @@
         <note>Information regarding the registry on your particular machine can be found by navigating to Start -> Run... and by typing 'mmc' and adding the Local Users and Groups Snap-in.</note>
       </notes>
       <criteria>
-        <criterion comment="Test that a user_object is supported." test_ref="oval:org.mitre.oval.test:tst:1356"/>
+        <criterion comment="Test that a user_object is supported." test_ref="oval:org.mitre.oval.test:tst:99991356"/>
         <criterion comment="Test that a user_object pattern match is supported." test_ref="oval:org.mitre.oval.test:tst:1300"/>
         <criterion comment="Test that a user_object not equals is supported." test_ref="oval:org.mitre.oval.test:tst:1415"/>
       </criteria>
     </definition>
   </definitions>
   <tests>
-    <user_test id="oval:org.mitre.oval.test:tst:1356" version="1" comment="Test that a user_object is supported." check_existence="at_least_one_exists" check="only one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+    <user_test id="oval:org.mitre.oval.test:tst:99991356" version="1" comment="Test that a user_object is supported." check_existence="at_least_one_exists" check="only one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <object object_ref="oval:org.mitre.oval.test:obj:1064"/>
       <state state_ref="oval:org.mitre.oval.test:ste:826"/>
     </user_test>

@@ -21,12 +21,12 @@
   </definitions>
   <tests>
     <wmi_test id="oval:org.mitre.oval.test:tst:1306" version="1" comment="Test that a wmi_object with a namespace and wql is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-      <object object_ref="oval:org.mitre.oval.test:obj:1076"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:91076"/>
       <state state_ref="oval:org.mitre.oval.test:ste:856"/>
     </wmi_test>
   </tests>
   <objects>
-    <wmi_object id="oval:org.mitre.oval.test:obj:1076" version="1" comment="Retrieves a wmi_object with a namespace that equals 'root\cimv2' and a wql that equals 'SELECT Name FROM Win32_Process'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+    <wmi_object id="oval:org.mitre.oval.test:obj:91076" version="1" comment="Retrieves a wmi_object with a namespace that equals 'root\cimv2' and a wql that equals 'SELECT Name FROM Win32_Process'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <namespace>root\cimv2</namespace>
       <wql>SELECT Name FROM Win32_Process</wql>
     </wmi_object>

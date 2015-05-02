@@ -17,7 +17,7 @@
       </notes>
       <criteria operator="AND">
         <criterion comment="Test that the sharedresource_object with netname equals is supported." test_ref="oval:org.mitre.oval.test:tst:765"/>
-        <criterion comment="Test that the sharedresource_object with a netname pattern match is supported." test_ref="oval:org.mitre.oval.test:tst:1174"/>
+        <criterion comment="Test that the sharedresource_object with a netname pattern match is supported." test_ref="oval:org.mitre.oval.test:tst:91174"/>
         <criterion comment="Test the sharedresource_object with the netname not equals is supported." test_ref="oval:org.mitre.oval.test:tst:1184"/>
       </criteria>
     </definition>
@@ -27,7 +27,7 @@
       <object object_ref="oval:org.mitre.oval.test:obj:1050"/>
       <state state_ref="oval:org.mitre.oval.test:ste:706"/>
     </sharedresource_test>
-    <sharedresource_test id="oval:org.mitre.oval.test:tst:1174" version="1" comment="Test that the sharedresource_object with a netname pattern match is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+    <sharedresource_test id="oval:org.mitre.oval.test:tst:91174" version="1" comment="Test that the sharedresource_object with a netname pattern match is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <object object_ref="oval:org.mitre.oval.test:obj:1102"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1135"/>
     </sharedresource_test>

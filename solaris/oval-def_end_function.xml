@@ -12,7 +12,7 @@
         <description>This definition is intended to evaluate to true if the interpreter properly supports the end function.</description>
       </metadata>
       <criteria operator="AND">
-        <criterion comment="Test that the end function is supported with a character value for the character attribute and a single string component that does not end with the character value specified in the character attribute." test_ref="oval:org.mitre.oval.test:tst:1503"/>
+        <criterion comment="Test that the end function is supported with a character value for the character attribute and a single string component that does not end with the character value specified in the character attribute." test_ref="oval:org.mitre.oval.test:tst:991503"/>
         <criterion comment="Test that the end function is supported with a character value for the character attribute and a single string component that ends with the character value specified in the character attribute." test_ref="oval:org.mitre.oval.test:tst:1364"/>
         <criterion comment="Test that the end function is supported with a string value for the character attribute and a single string component that does not end with the string value specified in the character attribute." test_ref="oval:org.mitre.oval.test:tst:1483"/>
         <criterion comment="Test that the end function is supported with a string value for the character attribute and a single string component that ends with the string value specified in the character attribute." test_ref="oval:org.mitre.oval.test:tst:1500"/>
@@ -20,7 +20,7 @@
     </definition>
   </definitions>
   <tests>
-    <variable_test id="oval:org.mitre.oval.test:tst:1503" version="1" comment="Test that the end function is supported with a character value for the character attribute and a single string component that does not end with the character value specified in the character attribute." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_test id="oval:org.mitre.oval.test:tst:991503" version="1" comment="Test that the end function is supported with a character value for the character attribute and a single string component that does not end with the character value specified in the character attribute." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:862"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1449"/>
     </variable_test>

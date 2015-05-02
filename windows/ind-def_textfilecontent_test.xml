@@ -6,7 +6,7 @@
     <terms_of_use>Copyright (c) 2002-2013, The MITRE Corporation. All rights reserved. The contents of this file are subject to the license described in terms.txt.</terms_of_use>
   </generator>
   <definitions>
-    <definition id="oval:org.mitre.oval.test:def:73" version="3" class="miscellaneous">
+    <definition id="oval:org.mitre.oval.test:def:973" version="3" class="miscellaneous">
       <metadata>
         <title>Evaluate to true if the ind-def:textfilecontent_test is properly supported.</title>
         <description>This definition is intended to evalutate to true if the interpreter properly supports the ind-def:textfilecontent_test.</description>
@@ -16,10 +16,10 @@
       </notes>
       <criteria operator="AND">
         <criterion comment="Test that the textfilecontent_object with a path, filename, and line is supported." test_ref="oval:org.mitre.oval.test:tst:1489"/>
-        <criterion comment="Test that the textfilecontent_object with a path pattern match, filename, and line is supported." test_ref="oval:org.mitre.oval.test:tst:1298"/>
+        <criterion comment="Test that the textfilecontent_object with a path pattern match, filename, and line is supported." test_ref="oval:org.mitre.oval.test:tst:91298"/>
         <criterion comment="Test that the textfilecontent_object with a path, filename pattern match, and line is supported." test_ref="oval:org.mitre.oval.test:tst:1476"/>
         <criterion comment="Test that the max_depth behavior is supported for a limited depth of recursion." test_ref="oval:org.mitre.oval.test:tst:1667"/>
-        <criterion comment="Test that the max_depth behavior is supported for a unlimited depth of recursion." test_ref="oval:org.mitre.oval.test:tst:1968"/>
+        <criterion comment="Test that the max_depth behavior is supported for a unlimited depth of recursion." test_ref="oval:org.mitre.oval.test:tst:91968"/>
         <criterion comment="Test that the recurse direction behavior is supported." test_ref="oval:org.mitre.oval.test:tst:1740"/>
       </criteria>
     </definition>
@@ -27,27 +27,27 @@
   <tests>
     <textfilecontent_test id="oval:org.mitre.oval.test:tst:1489" comment="Check simple text content: does the title of this definition contain textfilecontent?" check_existence="all_exist" check="all" version="1" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1046"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1244"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:91244"/>
     </textfilecontent_test>
-      <textfilecontent_test id="oval:org.mitre.oval.test:tst:1298" comment="Check simple text content: does the title of this definition contain textfilecontent?" check_existence="all_exist" check="all" version="2" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:596"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1244"/>
+      <textfilecontent_test id="oval:org.mitre.oval.test:tst:91298" comment="Check simple text content: does the title of this definition contain textfilecontent?" check_existence="all_exist" check="all" version="2" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+      <object object_ref="oval:org.mitre.oval.test:obj:9596"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:91244"/>
       </textfilecontent_test>
     <textfilecontent_test id="oval:org.mitre.oval.test:tst:1476" comment="Check simple text content: does the title of this definition contain textfilecontent?" check_existence="all_exist" check="all" version="1" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <object object_ref="oval:org.mitre.oval.test:obj:884"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1244"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:9884"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:91244"/>
     </textfilecontent_test>
     <textfilecontent_test id="oval:org.mitre.oval.test:tst:1667" comment="Check simple text content: does the title of this definition contain textfilecontent?" check_existence="all_exist" check="all" version="2" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1270"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:839"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:9839"/>
     </textfilecontent_test>
-    <textfilecontent_test id="oval:org.mitre.oval.test:tst:1968" comment="Check simple text content: does the title of this definition contain textfilecontent?" check_existence="all_exist" check="all" version="2" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <textfilecontent_test id="oval:org.mitre.oval.test:tst:91968" comment="Check simple text content: does the title of this definition contain textfilecontent?" check_existence="all_exist" check="all" version="2" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1262"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:839"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:9839"/>
     </textfilecontent_test>
     <textfilecontent_test id="oval:org.mitre.oval.test:tst:1740" comment="Check simple text content: does the title of this definition contain textfilecontent?" check_existence="all_exist" check="all" version="2" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1409"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:839"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:9839"/>
     </textfilecontent_test>
   </tests>
   <objects>
@@ -56,12 +56,12 @@
       <filename operation="equals">build.win32.txt</filename>
       <line operation="pattern match">OVAL Interpreter</line>
     </textfilecontent_object>
-    <textfilecontent_object comment="This textfilecontent_object retrieves all lines that match the regular expression 'OVAL Interpreter' in the file where the path matches the regular expression '^C:\\support\\.*' and the filename equals 'build.win32.txt'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" id="oval:org.mitre.oval.test:obj:596" version="2">
+    <textfilecontent_object comment="This textfilecontent_object retrieves all lines that match the regular expression 'OVAL Interpreter' in the file where the path matches the regular expression '^C:\\support\\.*' and the filename equals 'build.win32.txt'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" id="oval:org.mitre.oval.test:obj:9596" version="2">
         <path operation="pattern match">^C:\\support\\.*</path>
       <filename operation="equals">build.win32.txt</filename>
       <line operation="pattern match">OVAL Interpreter</line>
       </textfilecontent_object>
-    <textfilecontent_object comment="This textfilecontent_object retrieves all lines that match the regular expression 'OVAL Interpreter' in the file where the path equals 'C:\support\txt\txtfile' and the filename matches the regular expression 'build.win[0-9]{2}\.txt'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" id="oval:org.mitre.oval.test:obj:884" version="1">
+    <textfilecontent_object comment="This textfilecontent_object retrieves all lines that match the regular expression 'OVAL Interpreter' in the file where the path equals 'C:\support\txt\txtfile' and the filename matches the regular expression 'build.win[0-9]{2}\.txt'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" id="oval:org.mitre.oval.test:obj:9884" version="1">
       <path operation="equals">C:\support\txt\txtfile</path>
       <filename operation="pattern match">build.win[0-9]{2}\.txt</filename>
       <line operation="pattern match">OVAL Interpreter</line>
@@ -86,12 +86,12 @@
     </textfilecontent_object>
   </objects>
   <states>
-    <textfilecontent_state comment="This textfilecontent_state represents a textfilecontent_object where the path equals 'C:\support\txt\txtfile', filename equals 'build.win32.txt', and line matches the regular expression 'OVAL Interpreter'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" id="oval:org.mitre.oval.test:ste:1244" version="1">
+    <textfilecontent_state comment="This textfilecontent_state represents a textfilecontent_object where the path equals 'C:\support\txt\txtfile', filename equals 'build.win32.txt', and line matches the regular expression 'OVAL Interpreter'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" id="oval:org.mitre.oval.test:ste:91244" version="1">
       <path operation="equals">C:\support\txt\txtfile</path>
       <filename operation="equals">build.win32.txt</filename>
       <line operation="pattern match">OVAL Interpreter</line>
     </textfilecontent_state>
-    <textfilecontent_state comment="This textfilecontent_state represents a textfilecontent_object where the path equals 'C:\support\txt\txtfile', filename equals 'build.win32.txt', and line matches the regular expression 'OVAL Interpreter'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" id="oval:org.mitre.oval.test:ste:839" version="2">
+    <textfilecontent_state comment="This textfilecontent_state represents a textfilecontent_object where the path equals 'C:\support\txt\txtfile', filename equals 'build.win32.txt', and line matches the regular expression 'OVAL Interpreter'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent" id="oval:org.mitre.oval.test:ste:9839" version="2">
       <path operation="equals">C:\support\txt\txtfile</path>
       <filename operation="equals">build.win32.txt</filename>
       <line operation="pattern match">OVAL Interpreter</line>

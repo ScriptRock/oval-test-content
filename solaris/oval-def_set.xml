@@ -13,7 +13,7 @@
       </metadata>
       <criteria operator="AND">
         <criterion comment="Test that the set construct is supported with the COMPLEMENT operation." test_ref="oval:org.mitre.oval.test:tst:1227"/>
-        <criterion comment="Test that the set object is supported with the set_operator equal to 'INTERSECTION'." test_ref="oval:org.mitre.oval.test:tst:1337"/>
+        <criterion comment="Test that the set object is supported with the set_operator equal to 'INTERSECTION'." test_ref="oval:org.mitre.oval.test:tst:91337"/>
         <criterion comment="Test that the set construct is supported with the UNION operation." test_ref="oval:org.mitre.oval.test:tst:1517"/>
         <criterion comment="Test that the set object is supported with the filter element." test_ref="oval:org.mitre.oval.test:tst:1678"/>
         <criterion comment="Test that the set object is supported with one level of set elements." test_ref="oval:org.mitre.oval.test:tst:1582"/>
@@ -27,7 +27,7 @@
       <object object_ref="oval:org.mitre.oval.test:obj:274"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1261"/>
     </file_test>
-    <file_test id="oval:org.mitre.oval.test:tst:1337" version="2" comment="Test that the set object is supported with the set_operator equal to 'INTERSECTION'." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
+    <file_test id="oval:org.mitre.oval.test:tst:91337" version="2" comment="Test that the set object is supported with the set_operator equal to 'INTERSECTION'." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
       <object object_ref="oval:org.mitre.oval.test:obj:276"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1286"/>
     </file_test>

@@ -52,7 +52,7 @@
     </patch54_test>
     <patch54_test id="oval:org.mitre.oval.test:tst:1092" version="1" comment="Test that the patch54_object is supported with the supersedence behavior." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#solaris">
       <object object_ref="oval:org.mitre.oval.test:obj:1275"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1630"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:9991630"/>
     </patch54_test>
   </tests>
   <objects>
@@ -95,7 +95,7 @@
       <base datatype="int" operation="not equal">118344</base>
       <version datatype="int" operation="not equal">14</version>
     </patch_state>
-    <patch_state id="oval:org.mitre.oval.test:ste:1630" version="1" comment="This state represents patch54_items with a base equal to '118855' and a version equal to '36'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#solaris">
+    <patch_state id="oval:org.mitre.oval.test:ste:9991630" version="1" comment="This state represents patch54_items with a base equal to '118855' and a version equal to '36'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#solaris">
       <base datatype="int">118855</base>
       <version datatype="int">36</version>
     </patch_state>

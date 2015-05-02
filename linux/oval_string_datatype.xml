@@ -88,7 +88,7 @@
       <var_ref>oval:org.mitre.oval.test:var:382</var_ref>
     </variable_object>
     <variable_object id="oval:org.mitre.oval.test:obj:59" version="1" comment="This variable_object references the string value 'StRiNg_TeSt'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <var_ref>oval:org.mitre.oval.test:var:739</var_ref>
+      <var_ref>oval:org.mitre.oval.test:var:9739</var_ref>
     </variable_object>
     <variable_object id="oval:org.mitre.oval.test:obj:668" version="1" comment="This variable_object references the string value '9test9'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <var_ref>oval:org.mitre.oval.test:var:425</var_ref>
@@ -139,7 +139,7 @@
     <constant_variable id="oval:org.mitre.oval.test:var:382" version="1" comment="This constant_variable represents the string value 'TeSt_StRiNg'." datatype="string">
       <value>TeSt_StRiNg</value>
     </constant_variable>
-    <constant_variable id="oval:org.mitre.oval.test:var:739" version="1" comment="This constant_variable represents the string value 'StRiNg_TeSt'." datatype="string">
+    <constant_variable id="oval:org.mitre.oval.test:var:9739" version="1" comment="This constant_variable represents the string value 'StRiNg_TeSt'." datatype="string">
       <value>StRiNg_TeSt</value>
     </constant_variable>
     <constant_variable id="oval:org.mitre.oval.test:var:425" version="1" comment="This constant_variable represents the string value '9test9'." datatype="string">

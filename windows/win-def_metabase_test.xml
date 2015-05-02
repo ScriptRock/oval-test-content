@@ -23,7 +23,7 @@
   </definitions>
   <tests>
     <metabase_test id="oval:org.mitre.oval.test:tst:1275" version="1" comment="Test that an metabase_object with a key and id is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
-      <object object_ref="oval:org.mitre.oval.test:obj:1046"/>
+      <object object_ref="oval:org.mitre.oval.test:obj:91046"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1121"/>
     </metabase_test>
     <metabase_test id="oval:org.mitre.oval.test:tst:1088" version="1" comment="Test that an metabase_object with a key using pattern match and a id using equals is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
@@ -36,7 +36,7 @@
     </metabase_test>
   </tests>
   <objects>
-    <metabase_object id="oval:org.mitre.oval.test:obj:1046" version="1" comment="This object represents a metabase_object with a key equal to '/' and a id equal to '1002'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+    <metabase_object id="oval:org.mitre.oval.test:obj:91046" version="1" comment="This object represents a metabase_object with a key equal to '/' and a id equal to '1002'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <key>/</key>
       <id datatype="int">1002</id>
     </metabase_object>

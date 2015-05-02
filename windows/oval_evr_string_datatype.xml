@@ -36,7 +36,7 @@
           <criterion negate="true" comment="Test that the less than operation is supported with a greater than evr_string value." test_ref="oval:org.mitre.oval.test:tst:228"/>
         </criteria>
         <criteria operator="AND" comment="True if the less than or equal operation is supported">
-          <criterion comment="Test that the less than or equal operation is supported with a less than evr_string value." test_ref="oval:org.mitre.oval.test:tst:1202"/>
+          <criterion comment="Test that the less than or equal operation is supported with a less than evr_string value." test_ref="oval:org.mitre.oval.test:tst:91202"/>
           <criterion comment="Test that the less than or equal operation is supported with two equal evr_string values." test_ref="oval:org.mitre.oval.test:tst:1143"/>
           <criterion negate="true" comment="Test that the less than or equal operation is supported with a greater than evr_string value." test_ref="oval:org.mitre.oval.test:tst:1061"/>
         </criteria>
@@ -70,7 +70,7 @@
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1054" version="1" comment="Test that the greater than operation is supported with a less than evr_string value." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:598"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1023"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:9991023"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1027" version="1" comment="Test that the greater than or equal operation is supported with a greater than evr_string value." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:258"/>
@@ -96,9 +96,9 @@
       <object object_ref="oval:org.mitre.oval.test:obj:258"/>
       <state state_ref="oval:org.mitre.oval.test:ste:634"/>
     </variable_test>
-    <variable_test id="oval:org.mitre.oval.test:tst:1202" version="1" comment="Test that the less than or equal operation is supported with a less than evr_string value." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_test id="oval:org.mitre.oval.test:tst:91202" version="1" comment="Test that the less than or equal operation is supported with a less than evr_string value." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:598"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1097"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:9991097"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1143" version="1" comment="Test that the less than or equal operation is supported with two equal evr_string values." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:230"/>
@@ -145,7 +145,7 @@
     <variable_state id="oval:org.mitre.oval.test:ste:264" version="1" comment="This variable_state references the evr_string value '1:2.3.4-5.6'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="evr_string" operation="greater than">1:2.3.4-5.6</value>
     </variable_state>
-    <variable_state id="oval:org.mitre.oval.test:ste:1023" version="1" comment="This variable_state references the evr_string value '1:2.3.4-5.6'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_state id="oval:org.mitre.oval.test:ste:9991023" version="1" comment="This variable_state references the evr_string value '1:2.3.4-5.6'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="evr_string" operation="greater than">1:2.3.4-5.6</value>
     </variable_state>
     <variable_state id="oval:org.mitre.oval.test:ste:385" version="1" comment="This variable_state references the evr_string value '1:2.3.4-5.6'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
@@ -166,7 +166,7 @@
     <variable_state id="oval:org.mitre.oval.test:ste:634" version="1" comment="This variable_state references the evr_string value '1:2.3.4-5.6'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="evr_string" operation="less than">1:2.3.4-5.6</value>
     </variable_state>
-    <variable_state id="oval:org.mitre.oval.test:ste:1097" version="1" comment="This variable_state references the evr_string value '1:2.3.4-5.6'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_state id="oval:org.mitre.oval.test:ste:9991097" version="1" comment="This variable_state references the evr_string value '1:2.3.4-5.6'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="evr_string" operation="less than or equal">1:2.3.4-5.6</value>
     </variable_state>
     <variable_state id="oval:org.mitre.oval.test:ste:507" version="1" comment="This variable_state references the evr_string value '1:2.3.4-5.6'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">

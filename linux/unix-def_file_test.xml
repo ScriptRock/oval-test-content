@@ -55,7 +55,7 @@
     </file_test>
     <file_test id="oval:org.mitre.oval.test:tst:1479" version="1" comment="Test that the file_object is supported with the max_depth behavior set to an unlimited depth of recursion." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
       <object object_ref="oval:org.mitre.oval.test:obj:1448"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1565"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:91565"/>
     </file_test>
     <file_test id="oval:org.mitre.oval.test:tst:1912" version="2" comment="Test that the recurse_direction behavior is supported." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
       <object object_ref="oval:org.mitre.oval.test:obj:1509"/>
@@ -140,7 +140,7 @@
       <filename>ls</filename>
       <size datatype="int" operation="greater than">0</size>
     </file_state>
-    <file_state id="oval:org.mitre.oval.test:ste:1565" version="1" comment="This state represents a file_item which has a path that equals '/etc/rc.d', a filename that equals 'rc', and a size greater than '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
+    <file_state id="oval:org.mitre.oval.test:ste:91565" version="1" comment="This state represents a file_item which has a path that equals '/etc/rc.d', a filename that equals 'rc', and a size greater than '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
       <path>/etc/rc.d</path>
       <filename>rc</filename>
       <size datatype="int" operation="greater than">0</size>

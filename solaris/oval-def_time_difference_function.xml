@@ -16,7 +16,7 @@
         <criterion comment="Test that the time_difference function is supported with a year_month_day timedate value and a year_month_day timedate value." test_ref="oval:org.mitre.oval.test:tst:1565"/>
         <criterion comment="Test that the time_difference function is supported with a year_month_day timedate value and a year_month_day timedate value." test_ref="oval:org.mitre.oval.test:tst:1205"/>
         <criterion comment="Test that the time_difference function is supported with a year_month_day timedate value and a year_month_day timedate value." test_ref="oval:org.mitre.oval.test:tst:1320"/>
-        <criterion comment="Test that the time_difference function is supported with a year_month_day timedate value and a year_month_day timedate value." test_ref="oval:org.mitre.oval.test:tst:1513"/>
+        <criterion comment="Test that the time_difference function is supported with a year_month_day timedate value and a year_month_day timedate value." test_ref="oval:org.mitre.oval.test:tst:91513"/>
         <criterion comment="Test that the time_difference function is supported with a year_month_day timedate value and a year_month_day timedate value." test_ref="oval:org.mitre.oval.test:tst:823"/>
         <criterion comment="Test that the time_difference function is supported with a year_month_day timedate value and a year_month_day timedate value." test_ref="oval:org.mitre.oval.test:tst:717"/>
         <criterion comment="Test that the time_difference function is supported with a year_month_day timedate value and a year_month_day timedate value." test_ref="oval:org.mitre.oval.test:tst:1695"/>
@@ -62,7 +62,7 @@
       <object object_ref="oval:org.mitre.oval.test:obj:1167"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1368"/>
     </variable_test>
-    <variable_test id="oval:org.mitre.oval.test:tst:1513" version="1" comment="Test that the time_difference function is supported with a year_month_day timedate value and a year_month_day timedate value." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_test id="oval:org.mitre.oval.test:tst:91513" version="1" comment="Test that the time_difference function is supported with a year_month_day timedate value and a year_month_day timedate value." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:280"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1244"/>
     </variable_test>

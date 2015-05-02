@@ -16,8 +16,8 @@
         <note>Information regarding the active directory on your particular machine can be found by navigating to Start->Run... and type 'ldp'.</note>
       </notes>
       <criteria operator="AND">
-        <criterion comment="Test that an activedirectory_object with only a naming_context is supported." test_ref="oval:org.mitre.oval.test:tst:1331"/>
-        <criterion comment="Test that an activedirectory_object with a naming_context and a relative_dn is supported." test_ref="oval:org.mitre.oval.test:tst:1111"/>
+        <criterion comment="Test that an activedirectory_object with only a naming_context is supported." test_ref="oval:org.mitre.oval.test:tst:99991331"/>
+        <criterion comment="Test that an activedirectory_object with a naming_context and a relative_dn is supported." test_ref="oval:org.mitre.oval.test:tst:99991111"/>
         <criterion comment="Test that an activedirectory_object with a naming_context and a relative_dn and attribute is supported." test_ref="oval:org.mitre.oval.test:tst:1118"/>
         <criterion comment="Test that an activedirectory_object with a naming_context and a relative_dn where a pattern match is used and attribute is supported." test_ref="oval:org.mitre.oval.test:tst:620"/>
         <criterion comment="Test that an activedirectory_object with a naming_context and a relative_dn and attribute pattern match is used is supported." test_ref="oval:org.mitre.oval.test:tst:399"/>
@@ -25,11 +25,11 @@
     </definition>
   </definitions>
   <tests>
-    <activedirectory_test id="oval:org.mitre.oval.test:tst:1331" version="1" comment="Test that an activedirectory_object with only a naming_context is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+    <activedirectory_test id="oval:org.mitre.oval.test:tst:99991331" version="1" comment="Test that an activedirectory_object with only a naming_context is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <object object_ref="oval:org.mitre.oval.test:obj:902"/>
       <state state_ref="oval:org.mitre.oval.test:ste:524"/>
     </activedirectory_test>
-    <activedirectory_test id="oval:org.mitre.oval.test:tst:1111" version="1" comment="Test that an activedirectory_object with a naming_context and a relative_dn is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
+    <activedirectory_test id="oval:org.mitre.oval.test:tst:99991111" version="1" comment="Test that an activedirectory_object with a naming_context and a relative_dn is supported." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <object object_ref="oval:org.mitre.oval.test:obj:244"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1100"/>
     </activedirectory_test>

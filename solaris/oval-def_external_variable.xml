@@ -90,7 +90,7 @@
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1488" version="1" comment="Test that the external_variable construct is supported for a single string value." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1072"/>
-      <state state_ref="oval:org.mitre.oval.test:ste:1427"/>
+      <state state_ref="oval:org.mitre.oval.test:ste:991427"/>
     </variable_test>
     <variable_test id="oval:org.mitre.oval.test:tst:1360" version="1" comment="Test that the external_variable construct is supported for multiple string values." check_existence="at_least_one_exists" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1149"/>
@@ -208,7 +208,7 @@
     <variable_state id="oval:org.mitre.oval.test:ste:1415" version="1" comment="This variable_state represents a variable_object where the integer value is equal to '0', '-35422', '1004', or '-43233'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value datatype="int" var_ref="oval:org.mitre.oval.test:var:709" var_check="at least one"/>
     </variable_state>
-    <variable_state id="oval:org.mitre.oval.test:ste:1427" version="1" comment="This variable_state represents a variable_object where the string value is equal to 'test_string_1'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_state id="oval:org.mitre.oval.test:ste:991427" version="1" comment="This variable_state represents a variable_object where the string value is equal to 'test_string_1'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <value>test_string_1</value>
     </variable_state>
     <variable_state id="oval:org.mitre.oval.test:ste:897" version="1" comment="This variable_state represents a variable_object where the string value is equal to 'test_string_1', 'test_string_2', 'test_string_3', or 'test_string_4'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">

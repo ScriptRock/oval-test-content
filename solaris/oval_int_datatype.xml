@@ -23,7 +23,7 @@
         <criteria operator="AND" comment="True if the greater than operation is supported">
           <criterion comment="Test that the greater than operation is supported with a greater than integer value." test_ref="oval:org.mitre.oval.test:tst:1770"/>
           <criterion negate="true" comment="Test that the greater than operation is supported with two equal integer values." test_ref="oval:org.mitre.oval.test:tst:885"/>
-          <criterion negate="true" comment="Test that the greater than operation is supported with a less than integer value." test_ref="oval:org.mitre.oval.test:tst:1520"/>
+          <criterion negate="true" comment="Test that the greater than operation is supported with a less than integer value." test_ref="oval:org.mitre.oval.test:tst:991520"/>
         </criteria>
         <criteria operator="AND" comment="True if the greater than or equal operation is supported">
           <criterion comment="Test that the greater than or equal operation is supported with a greater than integer value." test_ref="oval:org.mitre.oval.test:tst:1350"/>
@@ -76,7 +76,7 @@
       <object object_ref="oval:org.mitre.oval.test:obj:976"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1208"/>
     </variable_test>
-    <variable_test id="oval:org.mitre.oval.test:tst:1520" version="1" comment="Test that the greater than operation is supported with a less than integer value." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
+    <variable_test id="oval:org.mitre.oval.test:tst:991520" version="1" comment="Test that the greater than operation is supported with a less than integer value." check_existence="at_least_one_exists" check="at least one" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
       <object object_ref="oval:org.mitre.oval.test:obj:1138"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1003"/>
     </variable_test>

@@ -14,7 +14,7 @@
       <criteria operator="AND">
         <criterion comment="Test that the xinetd_object is supported with the protocol entity equal to some value and the service_name entity equal to some value." test_ref="oval:org.mitre.oval.test:tst:1260"/>
         <criterion comment="Test that the xinetd_object is supported with the protocol entity not equal to some value and the service_name entity not equal to some value." test_ref="oval:org.mitre.oval.test:tst:1493"/>
-        <criterion comment="Test that the xinetd_object is supported with the protocol entity matching some regular expression and the service_name entity matching some regular expression." test_ref="oval:org.mitre.oval.test:tst:1920"/>
+        <criterion comment="Test that the xinetd_object is supported with the protocol entity matching some regular expression and the service_name entity matching some regular expression." test_ref="oval:org.mitre.oval.test:tst:9991920"/>
       </criteria>
     </definition>
   </definitions>
@@ -27,7 +27,7 @@
       <object object_ref="oval:org.mitre.oval.test:obj:1363"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1624"/>
     </xinetd_test>
-    <xinetd_test id="oval:org.mitre.oval.test:tst:1920" version="1" comment="Test that the xinetd_object is supported with the protocol entity matching some regular expression and the service_name entity matching some regular expression." check_existence="any_exist" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
+    <xinetd_test id="oval:org.mitre.oval.test:tst:9991920" version="1" comment="Test that the xinetd_object is supported with the protocol entity matching some regular expression and the service_name entity matching some regular expression." check_existence="any_exist" check="all" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
       <object object_ref="oval:org.mitre.oval.test:obj:1233"/>
       <state state_ref="oval:org.mitre.oval.test:ste:1057"/>
     </xinetd_test>
