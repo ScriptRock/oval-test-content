@@ -37,34 +37,34 @@
   </tests>
   <objects>
     <filehash58_object id="oval:org.mitre.oval.test:obj:163" version="2" comment="MD5 and SHA-1 hashes of notepad.exe" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <path operation="case insensitive equals">C:\WINDOWS</path>
+      <path operation="case insensitive equals">C:\WINDOWS\System32</path>
       <filename>notepad.exe</filename>
       <hash_type var_ref="oval:org.mitre.oval.test:var:438" var_check="at least one"/>
     </filehash58_object>
     <filehash58_object id="oval:org.mitre.oval.test:obj:101" version="2" comment="MD5 and SHA-1 hashes of notepad.exe" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <path operation="case insensitive equals">C:\WINDOWS</path>
+      <path operation="case insensitive equals">C:\WINDOWS\System32</path>
       <filename>notepad.exe</filename>
       <hash_type var_ref="oval:org.mitre.oval.test:var:690" var_check="none satisfy"/>
     </filehash58_object>
     <filehash58_object id="oval:org.mitre.oval.test:obj:27" version="2" comment="SHA-224, SHA-256, SHA-384, and SHA-512 hashes of notepad.exe" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <path operation="case insensitive equals">C:\WINDOWS</path>
+      <path operation="case insensitive equals">C:\WINDOWS\System32</path>
       <filename>notepad.exe</filename>
       <hash_type var_ref="oval:org.mitre.oval.test:var:690" var_check="at least one"/>
     </filehash58_object>
   </objects>
   <states>
     <filehash58_state id="oval:org.mitre.oval.test:ste:608" version="2" comment="matches any MD5 and SHA-1 hashes of notepad.exe" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <path operation="case insensitive equals">C:\WINDOWS</path>
+      <path operation="case insensitive equals">C:\WINDOWS\System32</path>
       <filename operation="case insensitive equals">notepad.exe</filename>
       <hash_type var_ref="oval:org.mitre.oval.test:var:690" var_check="none satisfy"/>
     </filehash58_state>
     <filehash58_state id="oval:org.mitre.oval.test:ste:48" version="2" comment="matches any MD5 and SHA-1 hashes of notepad.exe" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <path operation="case insensitive equals">C:\WINDOWS</path>
+      <path operation="case insensitive equals">C:\WINDOWS\System32</path>
       <filename operation="case insensitive equals">notepad.exe</filename>
       <hash_type var_ref="oval:org.mitre.oval.test:var:438" var_check="at least one"/>
     </filehash58_state>
     <filehash58_state id="oval:org.mitre.oval.test:ste:839" version="2" comment="matches any SHA-224, SHA-256, SHA-384, or SHA-512 hashes of notepad.exe" xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#independent">
-      <path operation="case insensitive equals">C:\WINDOWS</path>
+      <path operation="case insensitive equals">C:\WINDOWS\System32</path>
       <filename operation="case insensitive equals">notepad.exe</filename>
       <hash_type var_ref="oval:org.mitre.oval.test:var:690" var_check="at least one"/>
     </filehash58_state>
