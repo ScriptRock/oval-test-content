@@ -184,7 +184,7 @@
     </registry_state>
     <registry_state id="oval:org.mitre.oval.test:ste:287" version="1" comment="This registry_state represents a registry_object with a hive equal to 'HKEY_LOCAL_MACHINE', key equal to 'SOFTWARE\classes\regedit\shell\open\command', and name equal to ''." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
       <hive>HKEY_LOCAL_MACHINE</hive>
-      <key>SOFTWARE\Classes\regedit\shell\open\command</key>
+      <key>SOFTWARE\classes\regedit\shell\open\command</key>
       <name/>
     </registry_state>
     <registry_state id="oval:org.mitre.oval.test:ste:1699" version="1" comment="Check that the registry key with a hive equal to 'HKEY_LOCAL_MACHINE', key equal to 'SOFTWARE\Microsoft\Windows\CurrentVersion', and name equal to 'ProgramFilesDir', from the 32-bit view, has a value of 'C:\Program Files (x86)'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#windows">
