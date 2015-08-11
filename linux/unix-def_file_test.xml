@@ -88,8 +88,8 @@
       <filename operation="pattern match">^l</filename>
     </file_object>
     <file_object id="oval:org.mitre.oval.test:obj:512" version="1" comment="Retrieve file_items with a path that matches the regular expression '^/etc/r' and a filename that matches the regular expression '^r'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
-      <path operation="pattern match">^/etc/r.+</path>
-      <filename operation="pattern match">^r.+</filename>
+      <path operation="pattern match">^/tmp/support/txt/t.+</path>
+      <filename operation="pattern match">^b.+</filename>
     </file_object>
     <file_object id="oval:org.mitre.oval.test:obj:1310" version="1" comment="Retrieve a file_item with the path starting at '/etc', recursing down 1 level, and filename that equals 'rc'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
       <behaviors max_depth="1" recurse_direction="down" recurse="symlinks and directories"/>
@@ -98,19 +98,19 @@
     </file_object>
     <file_object id="oval:org.mitre.oval.test:obj:1448" version="1" comment="Retrieve a file_item with the path starting at '/etc', recursing down infinitely, and filename that equals 'rc'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
       <behaviors max_depth="-1" recurse_direction="down" recurse="symlinks and directories"/>
-      <path>/etc</path>
-      <filename>rc</filename>
+      <path>/tmp/support/txt/txtfile</path>
+      <filename>build.win32.txt</filename>
     </file_object>
     <file_object id="oval:org.mitre.oval.test:obj:1509" version="1" comment="Retrieve a file_item with the path starting at '/etc/rc.d', recursing up 1 level, and filename that equals 'profile'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
       <behaviors max_depth="1" recurse_direction="up" recurse="symlinks and directories"/>
-      <path>/etc/rc.d</path>
-      <filename>profile</filename>
+      <path>/tmp/support/txt/txtfile</path>
+      <filename>build.win32.txt</filename>
     </file_object>
     <file_object id="oval:org.mitre.oval.test:obj:1198" version="1" comment="Retrieve a file_item with the filepath equal to '/etc/rc.d/rc'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
-      <filepath>/etc/rc.d/rc</filepath>
+      <filepath>/tmp/support/txt/txtfile/build.win32.txt</filepath>
     </file_object>
     <file_object id="oval:org.mitre.oval.test:obj:1377" version="1" comment="Retrieve file_items with the filepath matching the regular expression '/etc/ssh/.+'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
-      <filepath operation="pattern match">^/etc/ssh/.+</filepath>
+      <filepath operation="pattern match">^/tmp/support/txt/txtfile/.+</filepath>
     </file_object>
   </objects>
   <states>
@@ -131,8 +131,8 @@
       <size datatype="int" operation="greater than">0</size>
     </file_state>
     <file_state id="oval:org.mitre.oval.test:ste:1761" version="1" comment="This state represents file_items which have a path that matches the regular expression '^/etc/r', a filename that matches the regular expression '^r', and a size greater than '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
-      <path operation="pattern match">^/etc/r</path>
-      <filename operation="pattern match">^r</filename>
+      <path operation="pattern match">^/tmp/support/txt/txtfile</path>
+      <filename operation="pattern match">^build.win32.txt</filename>
       <size datatype="int" operation="greater than">0</size>
     </file_state>
     <file_state id="oval:org.mitre.oval.test:ste:1640" version="1" comment="This state represents a file_item which has a path of '/bin', a filename equal to 'ls', and a size greater than '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
@@ -141,20 +141,20 @@
       <size datatype="int" operation="greater than">0</size>
     </file_state>
     <file_state id="oval:org.mitre.oval.test:ste:91565" version="1" comment="This state represents a file_item which has a path that equals '/etc/rc.d', a filename that equals 'rc', and a size greater than '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
-      <path>/etc/rc.d</path>
-      <filename>rc</filename>
+      <path>/tmp/support/txt/txtfile</path>
+      <filename>build.win32.txt</filename>
       <size datatype="int" operation="greater than">0</size>
     </file_state>
     <file_state id="oval:org.mitre.oval.test:ste:1730" version="2" comment="This state represents a file_item which has a filepath equal to '/etc/profile', a path equal to '/etc', a filename equal to 'profile'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
-      <filepath>/etc/profile</filepath>
-      <path>/etc</path>
-      <filename>profile</filename>
+      <filepath>/tmp/support/txt/txtfile/build.win32.txt</filepath>
+      <path>/tmp/support/txt/txtfile</path>
+      <filename>build.win32.txt</filename>
     </file_state>
     <file_state id="oval:org.mitre.oval.test:ste:1754" version="1" comment="This state represents a file_item with the filepath equal to '/etc/rc.d/rc'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
-      <filepath>/etc/rc.d/rc</filepath>
+      <filepath>/tmp/support/txt/txtfile/build.win32.txt</filepath>
     </file_state>
     <file_state id="oval:org.mitre.oval.test:ste:1476" version="2" comment="This state represents a file_item which has a filepath equal to '/etc/rc.d/rc', a path equal to '/etc/ssh', a filename equal to 'sshd_config', and a size greater than '0'." xmlns="http://oval.mitre.org/XMLSchema/oval-definitions-5#unix">
-      <filepath operation="pattern match">^/etc/ssh.+</filepath>
+      <filepath operation="pattern match">^/tmp/support/txt/.+</filepath>
       <size datatype="int" operation="greater than">0</size>
     </file_state>
   </states>
